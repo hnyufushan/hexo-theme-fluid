@@ -35,6 +35,7 @@
   "dependencies": {
     "busuanzi.pure.js": "^1.0.3",
     "leancloud-storage": "^4.11.1",
+    "universalify": "^2.0.1",
     "vuepress-plugin-meilisearch": "^0.13.0",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-sitemap": "^2.3.1",
