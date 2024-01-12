@@ -14,20 +14,20 @@
             "date_modified": "2023-02-26T13:04:41.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/d4534a/",
-            "url": "https://wiki.eryajf.net/pages/d4534a/",
-            "title": "腾讯云日志产品CLS使用以及成本控制的最佳实践",
-            "summary": "日志成本控制主要有如下几个维度：- 减量：去掉没有意义的无效日志，只打印关键日志。- 减周期：尽可能减少日志存储的时长。- 转低频：低频相较于标准存储，可降低 6 0%--70%的成本。- 慎开全文索引：全文索引将会把所有日志全部索引一遍，并且这个存储是未压缩的存储，如果开启全文索引，则存储往往会比不开的存储高出 4--10 倍。",
-            "image": "http://t.eryajf.net/imgs/2023/05/d09320ca6917fc3f.jpg",
-            "date_modified": "2023-05-19T09:15:57.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/4bcf72/",
             "url": "https://wiki.eryajf.net/pages/4bcf72/",
             "title": "CMDB平台建设指南",
             "summary": "我们的运维团队汇聚了一群优秀的，富有想法的年轻人。每次周会里边，当我们完成了各自日常工作的交流沟通之后，总是会跳出当下，天南海北，胡言乱语地头脑风暴一番。在这些看似  闲笔  的沟通当中，我们进行了大量的运维规范以及最佳实践的讨论，而当我们进行地讨论越多，越能够发现一个问题，无论是对于一个全流程(指一个项目的整个生命周期)命名的规范约束落地，还是对发布平台以应用维度的主机列表维护，都步步绕不开一个能够真正解决运维痛点的 CMDB 平台。注意，这里在 CMDB 这个名词的前边加了一个定语，真正解决运维痛点。事实上在这之前，我们并非没有做过 CMDB 平台的建设，只不过由于我们以往对这一概念的认知不足，完全交由运维开发同学，按他的一些经验想法开发出来的 CMDB，却总是难以真正在实际运维生产当中落地，简而言之就是，CMDB 平台做过，但都失败了。",
             "image": "https://t.eryajf.net/imgs/2023/07/1688807086693.png",
             "date_modified": "2023-07-08T16:56:07.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/d4534a/",
+            "url": "https://wiki.eryajf.net/pages/d4534a/",
+            "title": "腾讯云日志产品CLS使用以及成本控制的最佳实践",
+            "summary": "日志成本控制主要有如下几个维度：- 减量：去掉没有意义的无效日志，只打印关键日志。- 减周期：尽可能减少日志存储的时长。- 转低频：低频相较于标准存储，可降低 6 0%--70%的成本。- 慎开全文索引：全文索引将会把所有日志全部索引一遍，并且这个存储是未压缩的存储，如果开启全文索引，则存储往往会比不开的存储高出 4--10 倍。",
+            "image": "http://t.eryajf.net/imgs/2023/05/d09320ca6917fc3f.jpg",
+            "date_modified": "2023-05-19T09:15:57.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/e0fcff/",
@@ -78,20 +78,20 @@
             "date_modified": "2022-05-17T16:57:37.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/1cb90e/",
-            "url": "https://wiki.eryajf.net/pages/1cb90e/",
-            "title": "docker exec命令中含有通配符执行失败的问题",
-            "summary": "我写的的demo环境是通过docker-compose一键拉起的。因为服务器部署，与本地拉起测试有一些配置需要调整，于是打算用脚本做一下，这个时候发现执行带有通配符的命令会报如下错误",
-            "image": "http://t.eryajf.net/imgs/2022/06/8647d5b91f458b86.png",
-            "date_modified": "2022-06-14T17:21:26.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/8ff051/",
             "url": "https://wiki.eryajf.net/pages/8ff051/",
             "title": "Docker 调试构建失败的 Dockerfile 的方法",
             "summary": "当我们基于 Dockerfile 构建一个镜像的时候，不可避免的会遇到错误或失败，这个时候，通常我们会核查对应步骤执行的指令，然后调整指令，再次构建镜像，这是一种常规的方法。其实，因为 Docker 底层存储的机制，我们可以直接进入到失败之前成功的那次状态中，然后二次调试我们的指令，从而做到有的放矢地验证。",
             "image": "http://t.eryajf.net/imgs/2022/10/614b90515388dca3.png",
             "date_modified": "2022-10-22T21:58:03.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/1cb90e/",
+            "url": "https://wiki.eryajf.net/pages/1cb90e/",
+            "title": "docker exec命令中含有通配符执行失败的问题",
+            "summary": "我写的的demo环境是通过docker-compose一键拉起的。因为服务器部署，与本地拉起测试有一些配置需要调整，于是打算用脚本做一下，这个时候发现执行带有通配符的命令会报如下错误",
+            "image": "http://t.eryajf.net/imgs/2022/06/8647d5b91f458b86.png",
+            "date_modified": "2022-06-14T17:21:26.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/674f53/",
@@ -126,14 +126,6 @@
             "date_modified": "2022-07-17T22:00:19.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/ea10fa/",
-            "url": "https://wiki.eryajf.net/pages/ea10fa/",
-            "title": "openLDAP入门系列笔记第二篇--简单认识objectCLass以及常见应用",
-            "summary": "本文我们来认识理解一个很重要的概念：objectCLass，其实了解它是很难的，网上不少介绍的文章也讲的云里雾里，看完之后反而更加迷糊，本文将不求完全讲透，但求你看完会用。",
-            "image": "http://t.eryajf.net/imgs/2022/07/c0bb4688fe827e10.png",
-            "date_modified": "2022-07-17T22:02:31.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/e78558/",
             "url": "https://wiki.eryajf.net/pages/e78558/",
             "title": "openLDAP入门系列笔记第三篇--ldapsearch查询语法整理入门",
@@ -142,12 +134,28 @@
             "date_modified": "2023-02-20T19:57:56.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/ea10fa/",
+            "url": "https://wiki.eryajf.net/pages/ea10fa/",
+            "title": "openLDAP入门系列笔记第二篇--简单认识objectCLass以及常见应用",
+            "summary": "本文我们来认识理解一个很重要的概念：objectCLass，其实了解它是很难的，网上不少介绍的文章也讲的云里雾里，看完之后反而更加迷糊，本文将不求完全讲透，但求你看完会用。",
+            "image": "http://t.eryajf.net/imgs/2022/07/c0bb4688fe827e10.png",
+            "date_modified": "2022-07-17T22:02:31.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/53399c/",
             "url": "https://wiki.eryajf.net/pages/53399c/",
             "title": "GitHub中开源项目维护流程手册",
             "summary": "混迹于互联网，或多或少难免都会与 GitHub 有交互，大多数时候在公司中积累的 git 使用经验都是面向 GitLab 的，也很容易想当然地将过往的经验套到 GitHub 中，而事实上还是有一些差别的，最近开源了几个项目，有一些还涉及到要与外部开发者协同工作，当我真正面对要处理一个 PR 的时候，内心是慌乱的，一时间不知道该从何处下手，这里就整理记录一下这方面的实践。",
             "image": "http://t.eryajf.net/imgs/2022/06/9a78c978731d34b3.jpg",
             "date_modified": "2022-06-01T14:28:05.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/e7a8dc/",
+            "url": "https://wiki.eryajf.net/pages/e7a8dc/",
+            "title": "分享我的开源项目Thank-Mirror",
+            "summary": "整理记录各个包管理器，系统镜像，以及常用软件的好用镜像。Thanks Mirror。",
+            "image": "https://starchart.cc/eryajf/Thanks-Mirror.svg",
+            "date_modified": "2022-05-09T23:48:23.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/48e307/",
@@ -166,28 +174,20 @@
             "date_modified": "2022-07-23T11:10:55.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/2cb154/",
-            "url": "https://wiki.eryajf.net/pages/2cb154/",
-            "title": "利用GitHub Actions自动将项目贡献者列表添加到README中",
-            "summary": "当我们负责的项目有越来越多的人加入进行协作之后，将贡献者添加到 README 中是一个很好的激励作用，很多大的项目也都是这么做的，本文就来讲一下，如何借助 Github Actions 自动将项目贡献者列表添加到 README 中。",
-            "image": "http://t.eryajf.net/imgs/2022/06/9dc0fcdcc6ebd0c2.jpg",
-            "date_modified": "2022-06-01T10:30:49.000Z"
-        },
-        {
-            "id": "https://wiki.eryajf.net/pages/e7a8dc/",
-            "url": "https://wiki.eryajf.net/pages/e7a8dc/",
-            "title": "分享我的开源项目Thank-Mirror",
-            "summary": "整理记录各个包管理器，系统镜像，以及常用软件的好用镜像。Thanks Mirror。",
-            "image": "https://starchart.cc/eryajf/Thanks-Mirror.svg",
-            "date_modified": "2022-05-09T23:48:23.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/226388/",
             "url": "https://wiki.eryajf.net/pages/226388/",
             "title": "利用GitHub Actions自动为README添加TOC目录",
             "summary": "GitHub的Markdown目前不支持直接[TOC]渲染文章的目录，有些README则需要这样的效果，可以借助外部工具进行生成，也可以借助 GitHub Actions 自动生成，本文就介绍这种方式。",
             "image": "http://t.eryajf.net/imgs/2022/05/41e13b564c3c4210.jpg",
             "date_modified": "2022-05-08T10:40:28.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/2cb154/",
+            "url": "https://wiki.eryajf.net/pages/2cb154/",
+            "title": "利用GitHub Actions自动将项目贡献者列表添加到README中",
+            "summary": "当我们负责的项目有越来越多的人加入进行协作之后，将贡献者添加到 README 中是一个很好的激励作用，很多大的项目也都是这么做的，本文就来讲一下，如何借助 Github Actions 自动将项目贡献者列表添加到 README 中。",
+            "image": "http://t.eryajf.net/imgs/2022/06/9dc0fcdcc6ebd0c2.jpg",
+            "date_modified": "2022-06-01T10:30:49.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/f3e878/",
@@ -309,14 +309,6 @@
             "date_modified": "2022-09-04T19:02:27.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/fa2478/",
-            "url": "https://wiki.eryajf.net/pages/fa2478/",
-            "title": "Jenkins基于Share Library共享库的最佳实践探索",
-            "summary": "古代治学总结有人生三境界，在我看来，Jenkins 使用接入亦有三个阶段，这也是每一个运维人员应用 Jenkins 所必须要经历的。",
-            "image": "http://t.eryajf.net/imgs/2022/05/307b7573bb77f2bb.jpg",
-            "date_modified": "2022-05-22T11:23:33.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/ebae63/",
             "url": "https://wiki.eryajf.net/pages/ebae63/",
             "title": "Jenkins-Groovy中三元表达式的用法",
@@ -333,12 +325,12 @@
             "date_modified": "2023-09-07T23:28:25.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/0b780e/",
-            "url": "https://wiki.eryajf.net/pages/0b780e/",
-            "title": "CentOS通过yum快速安装Jenkins",
-            "summary": "之前我比较迷信于使用 Tomcat 部署 Jenkins，而现在随时拉起的环境越发的多，反而感觉到这种方式比较麻烦，使用 yum 安装基于 systemd 管理似乎也是一个不错的选择。",
-            "image": "https://t.eryajf.net/imgs/2023/12/1701705708887.jpg",
-            "date_modified": "2023-12-04T23:56:16.000Z"
+            "id": "https://wiki.eryajf.net/pages/fa2478/",
+            "url": "https://wiki.eryajf.net/pages/fa2478/",
+            "title": "Jenkins基于Share Library共享库的最佳实践探索",
+            "summary": "古代治学总结有人生三境界，在我看来，Jenkins 使用接入亦有三个阶段，这也是每一个运维人员应用 Jenkins 所必须要经历的。",
+            "image": "http://t.eryajf.net/imgs/2022/05/307b7573bb77f2bb.jpg",
+            "date_modified": "2022-05-22T11:23:33.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/90c88d/",
@@ -349,12 +341,12 @@
             "date_modified": "2023-09-09T23:18:29.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/de0fed/",
-            "url": "https://wiki.eryajf.net/pages/de0fed/",
-            "title": "k8s删除namespace之后状态一直为Terminating",
-            "summary": "k8s删除namespace之后状态一直为Terminating",
-            "image": "https://t.eryajf.net/imgs/2023/07/1689427249424.jpg",
-            "date_modified": "2023-07-15T21:18:24.000Z"
+            "id": "https://wiki.eryajf.net/pages/0b780e/",
+            "url": "https://wiki.eryajf.net/pages/0b780e/",
+            "title": "CentOS通过yum快速安装Jenkins",
+            "summary": "之前我比较迷信于使用 Tomcat 部署 Jenkins，而现在随时拉起的环境越发的多，反而感觉到这种方式比较麻烦，使用 yum 安装基于 systemd 管理似乎也是一个不错的选择。",
+            "image": "https://t.eryajf.net/imgs/2023/12/1701705708887.jpg",
+            "date_modified": "2023-12-04T23:56:16.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/0c3bcb/",
@@ -365,6 +357,14 @@
             "date_modified": "2023-07-15T21:17:56.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/de0fed/",
+            "url": "https://wiki.eryajf.net/pages/de0fed/",
+            "title": "k8s删除namespace之后状态一直为Terminating",
+            "summary": "k8s删除namespace之后状态一直为Terminating",
+            "image": "https://t.eryajf.net/imgs/2023/07/1689427249424.jpg",
+            "date_modified": "2023-07-15T21:18:24.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/813b7b/",
             "url": "https://wiki.eryajf.net/pages/813b7b/",
             "title": "我的2022年",
@@ -373,20 +373,20 @@
             "date_modified": "2023-01-01T19:48:42.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/0807f5/",
-            "url": "https://wiki.eryajf.net/pages/0807f5/",
-            "title": "成长在今晚",
-            "summary": "在昨晚之前啊，我在许多方面对女生存在一定的偏见，从而使“女人实在讨厌”一类的思想在我的脑海里先入为主地生根发芽时，我让自己对女生不得亲近，从而丧失了太多的具象的感性体验，就这样的我竟然还说是懂女人的，实在不知自己之前缘何这般自信，大概是无知的缘故吧。已经很明显了吧，我昨晚的成长是女人带给我的确为事实，然而又绝非是谁与我共度了初夜，而是我在与一群女生共同劳动中，我看到了另一面的女生。（请不要说这另一面是特定环境与心情下的特定表现，我立马认为其好略显片面，知道吗？这另一面是我看到以后又想到的啊，她们仍然是在和平常一样的生活啊）。正是这小小的一面，令我深为感触，并当即决定要作文纪念。",
-            "image": "https://t.eryajf.net/imgs/2023/11/1699193370316.jpg",
-            "date_modified": "2023-11-05T22:01:27.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/ed9d0f/",
             "url": "https://wiki.eryajf.net/pages/ed9d0f/",
             "title": "我的2023年",
             "summary": "我的2023年年终总结。又是一年轮替时，我们的生命被年切割，用于测量过往一个阶段的得失，而随着年轮地滚动，不管得失与否，能否合理解释自己的遭遇，能否合理认识自己的遭遇，能否合理超越自己的遭遇，都成为我们年龄递增的首要任务。许多人迷迷糊糊，光阴虚度，尽管眼见已二三十岁，却仍旧活在生活之下，即便多活几十年，也不过是一种窘困，愁苦，凡庸的延伸，着实冤枉。",
             "image": "https://t.eryajf.net/imgs/2024/01/1704643450931.png",
             "date_modified": "2024-01-07T23:59:28.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/0807f5/",
+            "url": "https://wiki.eryajf.net/pages/0807f5/",
+            "title": "成长在今晚",
+            "summary": "在昨晚之前啊，我在许多方面对女生存在一定的偏见，从而使“女人实在讨厌”一类的思想在我的脑海里先入为主地生根发芽时，我让自己对女生不得亲近，从而丧失了太多的具象的感性体验，就这样的我竟然还说是懂女人的，实在不知自己之前缘何这般自信，大概是无知的缘故吧。已经很明显了吧，我昨晚的成长是女人带给我的确为事实，然而又绝非是谁与我共度了初夜，而是我在与一群女生共同劳动中，我看到了另一面的女生。（请不要说这另一面是特定环境与心情下的特定表现，我立马认为其好略显片面，知道吗？这另一面是我看到以后又想到的啊，她们仍然是在和平常一样的生活啊）。正是这小小的一面，令我深为感触，并当即决定要作文纪念。",
+            "image": "https://t.eryajf.net/imgs/2023/11/1699193370316.jpg",
+            "date_modified": "2023-11-05T22:01:27.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/c3a0d9/",
@@ -461,20 +461,20 @@
             "date_modified": "2023-10-20T09:26:48.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/37439f/",
-            "url": "https://wiki.eryajf.net/pages/37439f/",
-            "title": "为何无志气",
-            "summary": "今天的年轻人，可说是毫无志气的，也没有人在生活中谈论志气，及时行乐的思想充斥在人们的脑中，眼前，耳里，口里，没有人愿意去十年寒窗苦，因为到处都是年少成名，九零后亿万富翁之类的宣传，人们都绞尽脑汁，挖空心思，削尖脑袋朝那里边儿扎，却毫不顾问一下自己，果真有那个心胸与德行吗？经济（钱）为主导的今天，人们都不屑于那所谓的士子德操，都以赶紧赚到钱为要事，却没有人考虑该怎样挣钱，以及怎样花钱。",
-            "image": "https://t.eryajf.net/imgs/2023/10/1698504826444.jpg",
-            "date_modified": "2023-10-28T22:51:05.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/1ed778/",
             "url": "https://wiki.eryajf.net/pages/1ed778/",
             "title": "常怀一颗谦卑心",
             "summary": "某人并不信鬼神，更不屑于耍弄这一套的人。但总也乐于好奇一下，便慕着大名找到王大仙，说明来意之后，恭恭敬敬地端坐在大仙对面，听着他的指点。",
             "image": "https://t.eryajf.net/imgs/2023/10/1698504109208.png",
             "date_modified": "2023-10-28T22:39:20.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/37439f/",
+            "url": "https://wiki.eryajf.net/pages/37439f/",
+            "title": "为何无志气",
+            "summary": "今天的年轻人，可说是毫无志气的，也没有人在生活中谈论志气，及时行乐的思想充斥在人们的脑中，眼前，耳里，口里，没有人愿意去十年寒窗苦，因为到处都是年少成名，九零后亿万富翁之类的宣传，人们都绞尽脑汁，挖空心思，削尖脑袋朝那里边儿扎，却毫不顾问一下自己，果真有那个心胸与德行吗？经济（钱）为主导的今天，人们都不屑于那所谓的士子德操，都以赶紧赚到钱为要事，却没有人考虑该怎样挣钱，以及怎样花钱。",
+            "image": "https://t.eryajf.net/imgs/2023/10/1698504826444.jpg",
+            "date_modified": "2023-10-28T22:51:05.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/46913a/",
@@ -553,20 +553,20 @@
             "date_modified": "2022-08-01T15:28:09.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/301514/",
-            "url": "https://wiki.eryajf.net/pages/301514/",
-            "title": "结合Multitouch完成我在Mac触摸板上的高效使用",
-            "summary": "Mac 的触摸板已经是一大神器，通过辅助软件配置好，将会生发出更大的能量。本文分享记录我的触摸板规则及配置。",
-            "image": "http://t.eryajf.net/imgs/2022/11/6145ae6b7f89c4da.png",
-            "date_modified": "2022-11-12T15:32:33.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/c2262c/",
             "url": "https://wiki.eryajf.net/pages/c2262c/",
             "title": "Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解",
             "summary": "前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。",
             "image": "http://t.eryajf.net/imgs/2022/08/0f1ec643b598917a.png",
             "date_modified": "2022-08-25T09:04:55.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/301514/",
+            "url": "https://wiki.eryajf.net/pages/301514/",
+            "title": "结合Multitouch完成我在Mac触摸板上的高效使用",
+            "summary": "Mac 的触摸板已经是一大神器，通过辅助软件配置好，将会生发出更大的能量。本文分享记录我的触摸板规则及配置。",
+            "image": "http://t.eryajf.net/imgs/2022/11/6145ae6b7f89c4da.png",
+            "date_modified": "2022-11-12T15:32:33.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/62a7c7/",
@@ -665,20 +665,20 @@
             "date_modified": "2023-06-22T15:27:29.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/8f3ba7/",
-            "url": "https://wiki.eryajf.net/pages/8f3ba7/",
-            "title": "go-cache包的使用简析",
-            "summary": "平时用 go 写一些小工具的时候，如果数据的敏感性没有那么强，那么一些热数据就可以考虑放在 cache 当中，cache 也没必要用外置服务，那就直接使用本机内存进行存储即可。 go-cache 就是一个用于本地缓存的 Go 语言库，它支持过期时间和自动清理。它使用了一个内部的 goroutine 来检查缓存项是否过期，并在需要时自动清理过期的缓存项。使我们能够很方便地将一些数据放在缓存当中。",
-            "image": "http://t.eryajf.net/imgs/2023/03/6b55ce2395c8e90c.jpg",
-            "date_modified": "2023-03-19T11:07:27.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/541fc0/",
             "url": "https://wiki.eryajf.net/pages/541fc0/",
             "title": "使用retry-go给项目添加重试机制",
             "summary": "在编写分布式应用程序时，有时会出现一些短暂的错误，例如网络问题、服务端连接中断等。这些错误可能会导致函数执行失败，但在稍后重新尝试时可能会成功。在这种情况下，我们可以使用重试机制。retry-go 是一个轻量级的 Golang 库，它使重试代码块变得更加简单。它通过提供一个简单的 API 来实现这一点，这使得开发人员可以在代码中轻松地添加重试逻辑。",
             "image": "http://t.eryajf.net/imgs/2023/03/4704fe2930acd95e.jpg",
             "date_modified": "2023-03-15T21:05:48.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/8f3ba7/",
+            "url": "https://wiki.eryajf.net/pages/8f3ba7/",
+            "title": "go-cache包的使用简析",
+            "summary": "平时用 go 写一些小工具的时候，如果数据的敏感性没有那么强，那么一些热数据就可以考虑放在 cache 当中，cache 也没必要用外置服务，那就直接使用本机内存进行存储即可。 go-cache 就是一个用于本地缓存的 Go 语言库，它支持过期时间和自动清理。它使用了一个内部的 goroutine 来检查缓存项是否过期，并在需要时自动清理过期的缓存项。使我们能够很方便地将一些数据放在缓存当中。",
+            "image": "http://t.eryajf.net/imgs/2023/03/6b55ce2395c8e90c.jpg",
+            "date_modified": "2023-03-19T11:07:27.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/4948f1/",
@@ -705,12 +705,12 @@
             "date_modified": "2023-06-22T15:32:15.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/e85cbc/",
-            "url": "https://wiki.eryajf.net/pages/e85cbc/",
-            "title": "chatGPT钉钉群聊交互版-chatgpt-dingtalk",
-            "summary": "最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。",
-            "image": "https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20230405_191425.jpg",
-            "date_modified": "2022-12-09T17:47:22.000Z"
+            "id": "https://wiki.eryajf.net/pages/a76bb0/",
+            "url": "https://wiki.eryajf.net/pages/a76bb0/",
+            "title": "基于GO语言实现的体验最好的企微应用集成ChatGPT项目chatgpt-wecom",
+            "summary": "如题",
+            "image": "https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20230702_210053.jpg",
+            "date_modified": "2023-07-02T23:13:40.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/38fe49/",
@@ -721,12 +721,12 @@
             "date_modified": "2023-09-07T23:18:46.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/a76bb0/",
-            "url": "https://wiki.eryajf.net/pages/a76bb0/",
-            "title": "基于GO语言实现的体验最好的企微应用集成ChatGPT项目chatgpt-wecom",
-            "summary": "如题",
-            "image": "https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20230702_210053.jpg",
-            "date_modified": "2023-07-02T23:13:40.000Z"
+            "id": "https://wiki.eryajf.net/pages/e85cbc/",
+            "url": "https://wiki.eryajf.net/pages/e85cbc/",
+            "title": "chatGPT钉钉群聊交互版-chatgpt-dingtalk",
+            "summary": "最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。",
+            "image": "https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20230405_191425.jpg",
+            "date_modified": "2022-12-09T17:47:22.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/aa3e00/",
@@ -806,6 +806,13 @@
             "date_modified": "2022-03-19T17:53:04.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/ae6b3c/",
+            "url": "https://wiki.eryajf.net/pages/ae6b3c/",
+            "title": "学习周刊-总第46期-2022年第11周",
+            "summary": "学习周刊-总第46期-2022年第11周",
+            "date_modified": "2022-03-25T21:28:58.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/713f83/",
             "url": "https://wiki.eryajf.net/pages/713f83/",
             "title": "学习周刊-总第47期-2022年第12周",
@@ -853,20 +860,20 @@
             "date_modified": "2022-05-07T20:38:56.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/75bb76/",
-            "url": "https://wiki.eryajf.net/pages/75bb76/",
-            "title": "学习周刊-总第54期-2022年第19周",
-            "summary": "学习周刊-总第54期-2022年第19周",
-            "image": "http://t.eryajf.net/imgs/2022/05/c10793cf89b04397.png",
-            "date_modified": "2022-05-21T14:52:29.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/fc658e/",
             "url": "https://wiki.eryajf.net/pages/fc658e/",
             "title": "学习周刊-总第53期-2022年第18周",
             "summary": "学习周刊-总第53期-2022年第18周",
             "image": "http://t.eryajf.net/imgs/2022/05/91567c17a3b1eeb9.png",
             "date_modified": "2022-05-14T23:12:02.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/75bb76/",
+            "url": "https://wiki.eryajf.net/pages/75bb76/",
+            "title": "学习周刊-总第54期-2022年第19周",
+            "summary": "学习周刊-总第54期-2022年第19周",
+            "image": "http://t.eryajf.net/imgs/2022/05/c10793cf89b04397.png",
+            "date_modified": "2022-05-21T14:52:29.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/fe7652/",
@@ -899,6 +906,14 @@
             "summary": "学习周刊-总第58期-2022年第23周",
             "image": "http://t.eryajf.net/imgs/2022/05/ae374c5bdb1076f6.jpg",
             "date_modified": "2022-06-17T21:11:58.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/b0bdd0/",
+            "url": "https://wiki.eryajf.net/pages/b0bdd0/",
+            "title": "学习周刊-总第59期-2022年第24周",
+            "summary": "学习周刊-总第59期-2022年第24周",
+            "image": "http://t.eryajf.net/imgs/2022/06/74afd02fa6d03cc4.png",
+            "date_modified": "2022-06-24T15:52:01.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/bff449/",
@@ -949,14 +964,6 @@
             "date_modified": "2022-08-05T07:42:12.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/66c212/",
-            "url": "https://wiki.eryajf.net/pages/66c212/",
-            "title": "学习周刊-总第66期-2022年第31周",
-            "summary": "学习周刊-总第66期-2022年第31周",
-            "image": "http://t.eryajf.net/imgs/2022/07/755273381608161e.png",
-            "date_modified": "2022-08-12T08:42:41.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/c5dd7c/",
             "url": "https://wiki.eryajf.net/pages/c5dd7c/",
             "title": "学习周刊-总第67期-2022年第32周",
@@ -965,12 +972,12 @@
             "date_modified": "2022-08-19T07:10:11.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/73eb3e/",
-            "url": "https://wiki.eryajf.net/pages/73eb3e/",
-            "title": "学习周刊-总第68期-2022年第33周",
-            "summary": "学习周刊-总第 68 期-程序员如何优雅地挣零花钱",
-            "image": "http://t.eryajf.net/imgs/2022/07/070940084883b435.png",
-            "date_modified": "2022-08-26T09:02:58.000Z"
+            "id": "https://wiki.eryajf.net/pages/66c212/",
+            "url": "https://wiki.eryajf.net/pages/66c212/",
+            "title": "学习周刊-总第66期-2022年第31周",
+            "summary": "学习周刊-总第66期-2022年第31周",
+            "image": "http://t.eryajf.net/imgs/2022/07/755273381608161e.png",
+            "date_modified": "2022-08-12T08:42:41.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/30b309/",
@@ -979,6 +986,14 @@
             "summary": "学习周刊-总第69期-2021年个人博主们的年终总结",
             "image": "http://t.eryajf.net/imgs/2022/08/fdfe65cb3dcaa78b.png",
             "date_modified": "2022-09-02T08:41:56.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/73eb3e/",
+            "url": "https://wiki.eryajf.net/pages/73eb3e/",
+            "title": "学习周刊-总第68期-2022年第33周",
+            "summary": "学习周刊-总第 68 期-程序员如何优雅地挣零花钱",
+            "image": "http://t.eryajf.net/imgs/2022/07/070940084883b435.png",
+            "date_modified": "2022-08-26T09:02:58.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/d3ed2b/",
@@ -997,20 +1012,20 @@
             "date_modified": "2022-09-16T09:06:29.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/430bd1/",
-            "url": "https://wiki.eryajf.net/pages/430bd1/",
-            "title": "学习周刊-总第72期-2022年第37周",
-            "summary": "学习周刊-总第72期-有些事，不能忘",
-            "image": "http://t.eryajf.net/imgs/2022/09/96e4c6b63f45feac.gif",
-            "date_modified": "2022-09-23T08:50:33.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/3d89ea/",
             "url": "https://wiki.eryajf.net/pages/3d89ea/",
             "title": "学习周刊-总第73期-2022年第38周",
             "summary": "学习周刊-总第73期-k8s集群常用监控指标",
             "image": "http://t.eryajf.net/imgs/2022/09/8336066abe86e4c9.png",
             "date_modified": "2022-09-30T08:38:21.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/430bd1/",
+            "url": "https://wiki.eryajf.net/pages/430bd1/",
+            "title": "学习周刊-总第72期-2022年第37周",
+            "summary": "学习周刊-总第72期-有些事，不能忘",
+            "image": "http://t.eryajf.net/imgs/2022/09/96e4c6b63f45feac.gif",
+            "date_modified": "2022-09-23T08:50:33.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/cc327d/",
@@ -1053,20 +1068,20 @@
             "date_modified": "2022-11-05T10:51:02.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/43ee57/",
-            "url": "https://wiki.eryajf.net/pages/43ee57/",
-            "title": "学习周刊-总第79期-2022年第44周",
-            "summary": "学习周刊-总第79期-homebrew桌面版与一个类似jumpserver登陆界面的ssh登陆工具",
-            "image": "http://t.eryajf.net/imgs/2022/10/4cb110bf49af844a.png",
-            "date_modified": "2022-11-11T09:12:17.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/b442a6/",
             "url": "https://wiki.eryajf.net/pages/b442a6/",
             "title": "学习周刊-总第80期-2022年第45周",
             "summary": "学习周刊-总第80期-两个前端代码生成项目与一个go语言时间库",
             "image": "http://t.eryajf.net/imgs/2022/11/ddef028c0b037a96.gif",
             "date_modified": "2022-11-18T09:07:19.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/43ee57/",
+            "url": "https://wiki.eryajf.net/pages/43ee57/",
+            "title": "学习周刊-总第79期-2022年第44周",
+            "summary": "学习周刊-总第79期-homebrew桌面版与一个类似jumpserver登陆界面的ssh登陆工具",
+            "image": "http://t.eryajf.net/imgs/2022/10/4cb110bf49af844a.png",
+            "date_modified": "2022-11-11T09:12:17.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/2ef415/",
@@ -1109,19 +1124,19 @@
             "date_modified": "2022-12-23T20:44:39.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/ba509d/",
+            "url": "https://wiki.eryajf.net/pages/ba509d/",
+            "title": "学习周刊-总第87期-2022年第52周",
+            "summary": "学习周刊-总第87期-一个能够ssh到action容器的debug方式",
+            "date_modified": "2023-01-02T11:13:06.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/f86f4e/",
             "url": "https://wiki.eryajf.net/pages/f86f4e/",
             "title": "学习周刊-总第86期-2022年第51周",
             "summary": "学习周刊-总第86期-简洁易用的行为式验证码Go库",
             "image": "http://t.eryajf.net/imgs/2022/12/5a50c33d02507aa3.jpg",
             "date_modified": "2022-12-29T15:30:00.000Z"
-        },
-        {
-            "id": "https://wiki.eryajf.net/pages/ba509d/",
-            "url": "https://wiki.eryajf.net/pages/ba509d/",
-            "title": "学习周刊-总第87期-2022年第52周",
-            "summary": "学习周刊-总第87期-一个能够ssh到action容器的debug方式",
-            "date_modified": "2023-01-02T11:13:06.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/1e5ab8/",
@@ -1180,20 +1195,20 @@
             "date_modified": "2023-02-17T21:40:45.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/5ec73f/",
-            "url": "https://wiki.eryajf.net/pages/5ec73f/",
-            "title": "学习周刊-总第95期-2023年第08周",
-            "summary": "学习周刊-总第95期-汇总整理几个优秀的开源图床程序",
-            "image": "http://t.eryajf.net/imgs/2023/02/1c26de6863eba107.png",
-            "date_modified": "2023-02-24T09:51:14.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/866763/",
             "url": "https://wiki.eryajf.net/pages/866763/",
             "title": "学习周刊-总第96期-2023年第09周",
             "summary": "学习周刊-总第96期-超强的开源搜索引擎meilisearch",
             "image": "http://t.eryajf.net/imgs/2023/02/bdce31c81c72219d.gif",
             "date_modified": "2023-03-03T20:09:06.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/5ec73f/",
+            "url": "https://wiki.eryajf.net/pages/5ec73f/",
+            "title": "学习周刊-总第95期-2023年第08周",
+            "summary": "学习周刊-总第95期-汇总整理几个优秀的开源图床程序",
+            "image": "http://t.eryajf.net/imgs/2023/02/1c26de6863eba107.png",
+            "date_modified": "2023-02-24T09:51:14.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/823a62/",
@@ -1372,14 +1387,6 @@
             "date_modified": "2023-08-04T09:28:38.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/b0bdd0/",
-            "url": "https://wiki.eryajf.net/pages/b0bdd0/",
-            "title": "学习周刊-总第59期-2022年第24周",
-            "summary": "学习周刊-总第59期-2022年第24周",
-            "image": "http://t.eryajf.net/imgs/2022/06/74afd02fa6d03cc4.png",
-            "date_modified": "2022-06-24T15:52:01.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/fe5601/",
             "url": "https://wiki.eryajf.net/pages/fe5601/",
             "title": "学习周刊-总第119期-2023年第32周",
@@ -1388,20 +1395,20 @@
             "date_modified": "2023-08-11T09:11:10.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/99ded0/",
-            "url": "https://wiki.eryajf.net/pages/99ded0/",
-            "title": "学习周刊-总第120期-2023年第33周",
-            "summary": "学习周刊-总第120期-一款go语言编写的开源的自荐邮件服务器系统项目",
-            "image": "https://t.eryajf.net/imgs/2023/08/1690888001359.png",
-            "date_modified": "2023-08-18T09:08:42.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/0e1fea/",
             "url": "https://wiki.eryajf.net/pages/0e1fea/",
             "title": "学习周刊-总第121期-2023年第34周",
             "summary": "学习周刊-总第121期-Obsidian一些同步方案的介绍",
             "image": "https://t.eryajf.net/imgs/2023/08/1691808926212.png",
             "date_modified": "2023-08-25T09:14:50.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/99ded0/",
+            "url": "https://wiki.eryajf.net/pages/99ded0/",
+            "title": "学习周刊-总第120期-2023年第33周",
+            "summary": "学习周刊-总第120期-一款go语言编写的开源的自荐邮件服务器系统项目",
+            "image": "https://t.eryajf.net/imgs/2023/08/1690888001359.png",
+            "date_modified": "2023-08-18T09:08:42.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/d0decb/",
@@ -1476,13 +1483,6 @@
             "date_modified": "2023-10-27T09:25:29.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/ae6b3c/",
-            "url": "https://wiki.eryajf.net/pages/ae6b3c/",
-            "title": "学习周刊-总第46期-2022年第11周",
-            "summary": "学习周刊-总第46期-2022年第11周",
-            "date_modified": "2022-03-25T21:28:58.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/94c797/",
             "url": "https://wiki.eryajf.net/pages/94c797/",
             "title": "学习周刊-总第131期-2023年第44周",
@@ -1515,14 +1515,6 @@
             "date_modified": "2023-11-24T09:41:11.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/883f27/",
-            "url": "https://wiki.eryajf.net/pages/883f27/",
-            "title": "学习周刊-总第135期-2023年第48周",
-            "summary": "学习周刊-总第135期-两个go语言开发的定时任务管理系统平台",
-            "image": "https://t.eryajf.net/imgs/2023/11/1699792036369.png",
-            "date_modified": "2023-11-30T23:50:34.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/eb495e/",
             "url": "https://wiki.eryajf.net/pages/eb495e/",
             "title": "学习周刊-总第136期-2023年第49周",
@@ -1531,20 +1523,20 @@
             "date_modified": "2023-12-07T22:29:56.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/0d5163/",
-            "url": "https://wiki.eryajf.net/pages/0d5163/",
-            "title": "学习周刊-总第138期-2023年第51周",
-            "summary": "学习周刊-总第138期-又一款开源的elasticsearch管控端项目",
-            "image": "https://t.eryajf.net/imgs/2023/11/1701358835027.png",
-            "date_modified": "2023-12-21T22:01:07.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/854f9d/",
             "url": "https://wiki.eryajf.net/pages/854f9d/",
             "title": "学习周刊-总第137期-2023年第50周",
             "summary": "学习周刊-总第137期-一个docker-compose管理面板和一个ldap认证库",
             "image": "https://t.eryajf.net/imgs/2023/12/1702130156068.png",
             "date_modified": "2023-12-14T23:52:34.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/0d5163/",
+            "url": "https://wiki.eryajf.net/pages/0d5163/",
+            "title": "学习周刊-总第138期-2023年第51周",
+            "summary": "学习周刊-总第138期-又一款开源的elasticsearch管控端项目",
+            "image": "https://t.eryajf.net/imgs/2023/11/1701358835027.png",
+            "date_modified": "2023-12-21T22:01:07.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/3c7c6a/",
@@ -1587,6 +1579,13 @@
             "date_modified": "2022-03-12T08:27:15.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/looking-for-a-job/",
+            "url": "https://wiki.eryajf.net/looking-for-a-job/",
+            "title": "求职公告",
+            "summary": "注：已找到工作，这期间得到了太多的帮助，随后有空会整理一个文档进行感谢，接下来该专心投入到工作当中啦！",
+            "date_modified": "2023-03-07T10:56:00.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/b2f34c/",
             "url": "https://wiki.eryajf.net/pages/b2f34c/",
             "title": "博客导引",
@@ -1595,18 +1594,19 @@
             "date_modified": "2023-02-13T10:56:00.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/looking-for-a-job/",
-            "url": "https://wiki.eryajf.net/looking-for-a-job/",
-            "title": "求职公告",
-            "summary": "注：已找到工作，这期间得到了太多的帮助，随后有空会整理一个文档进行感谢，接下来该专心投入到工作当中啦！",
-            "date_modified": "2023-03-07T10:56:00.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/afc8fe/",
             "url": "https://wiki.eryajf.net/pages/afc8fe/",
             "title": "置顶文章汇总",
             "summary": "因为首页只展示最近更新的十篇文章，过多优秀的文章不能都置顶，因此单独一篇文章，将博客中精华内容罗列于此。",
             "date_modified": "2022-05-23T22:26:48.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/883f27/",
+            "url": "https://wiki.eryajf.net/pages/883f27/",
+            "title": "学习周刊-总第135期-2023年第48周",
+            "summary": "学习周刊-总第135期-两个go语言开发的定时任务管理系统平台",
+            "image": "https://t.eryajf.net/imgs/2023/11/1699792036369.png",
+            "date_modified": "2023-11-30T23:50:34.000Z"
         }
     ]
 }
