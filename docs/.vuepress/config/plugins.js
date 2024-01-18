@@ -71,10 +71,10 @@ module.exports = [
     "dynamic-title",
     {
       showIcon:
-        "https://wiki.eryajf.net/img/favicon.ico",
+        "/img/favicon.ico",
       showText: "ヾ(≧▽≦*)o欢迎回来！",
       hideIcon:
-        "https://wiki.eryajf.net/img/favicon.ico",
+        "/img/favicon.ico",
       hideText: "ಥ_ಥ不要走呀！",
       recoverTime: 2000, //  持续时间
     },

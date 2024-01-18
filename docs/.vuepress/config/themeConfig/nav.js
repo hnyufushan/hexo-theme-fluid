@@ -1,6 +1,18 @@
 // nav
 module.exports = [
   { text: '首页', link: '/' },
+  { text: '编程',link: '/code/',
+    items: [
+      { text: 'Java学习笔记', link: '/java-learn/'},
+      { text: 'Docker专区', link: '/dockerZQ/'},
+      { text: '实战教程', link: '/actual-learn/'},
+      { text: 'Shell', link: '/shell/'},
+      { text: '前端实践', link: '/front-code/'},
+      { text: 'Vue学习笔记', link: '/vue-learn/'},
+      { text: 'Golang学习笔记', link: '/go-learn/'},
+      { text: 'Golang编程技巧', link: '/go-code/'},
+    ]
+  },
   { text: '运维',link: '/ops/',
     items: [
       { text: '最佳实践', link: '/best-practices/'},
@@ -47,15 +59,6 @@ module.exports = [
       { text: '电影音乐', link: '/dyyy/'},
       { text: '效率工具', link: '/xlgj/'},
       { text: '博客相关', link: '/bkxg/'},
-    ]
-  },
-  { text: '编程',link: '/code/',
-    items: [
-      { text: 'Shell', link: '/shell/'},
-      { text: '前端实践', link: '/front-code/'},
-      { text: 'Vue学习笔记', link: '/vue-learn/'},
-      { text: 'Golang学习笔记', link: '/go-learn/'},
-      { text: 'Golang编程技巧', link: '/go-code/'},
     ]
   },
   { text: '周刊', link: '/weekly/',

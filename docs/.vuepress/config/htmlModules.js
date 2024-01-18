@@ -50,8 +50,8 @@ module.exports = {
   <button>打赏</button>
   <div class="main">
       <div class="pic">
-          <img src="https://t.eryajf.net/imgs/2023/01/834f12107ebc432a.png" alt="微信">
-          <img src="https://t.eryajf.net/imgs/2023/01/fc21022aadd292ca.png" alt="支付宝">
+          <img src="https://fsvip.gitee.io/imgs/pic/wx.jpg" alt="微信">
+          <img src="https://fsvip.gitee.io/imgs/pic/zfb.jpg" alt="支付宝">
       </div>
   </div>
 </div>`,

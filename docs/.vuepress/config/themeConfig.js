@@ -78,7 +78,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: '/img/dengxia.gif',
+    avatar: '/hexo-theme-fluid/img/dengxia.gif',
     name: '小于博客',
     slogan: '行者常至，为者常成',
   },
