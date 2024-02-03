@@ -3,8 +3,8 @@
 [![](https://visitor-badge.laobi.icu/badge?page_id=eryajf.eryajf)](https://visitor-badge.laobi.icu/badge?page_id=eryajf.eryajf)
 [![Mail Badge](https://img.shields.io/badge/-eryajf@163.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:eryajf@163.com)](mailto:eryajf@163.com)
 [![](https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E8%BF%90%E7%BB%B4%E8%89%BA%E6%9C%AF-71f9fe?logo=WeChat)](https://tva4.sinaimg.cn/large/008k1Yt0ly1h4nmsb1pgzj32n00yo154.jpg)
-[![](https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-%E4%BA%8C%E4%B8%AB%E8%AE%B2%E6%A2%B5-d7b1bf?logo=Blogger)](https://wiki.eryajf.net)
-[![wiki](https://img.shields.io/website?url=https://wiki.eryajf.net/)](https://wiki.eryajf.net/)
+[![](https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-%E4%BA%8C%E4%B8%AB%E8%AE%B2%E6%A2%B5-d7b1bf?logo=Blogger)](http://fsvip.gitee.io/hexo-theme-fluid/)
+[![wiki](https://img.shields.io/website?url=http://fsvip.gitee.io/hexo-theme-fluid//)](http://fsvip.gitee.io/hexo-theme-fluid//)
 [![](https://img.shields.io/badge/Awesome-MyStarList-c780fa?logo=Awesome-Lists)](https://github.com/eryajf/awesome-stars-eryajf#readme)
 
 个人博客所有内容源代码，博客通过静态部署，一切内容尽皆开源开放。
@@ -12,12 +12,12 @@
 因此 `不必fork`，可以 `尽情star`！
 
 
-**博客地址：** [https://wiki.eryajf.net](https://wiki.eryajf.net)
+**博客地址：** [http://fsvip.gitee.io/hexo-theme-fluid/](http://fsvip.gitee.io/hexo-theme-fluid/)
 
-**学习周刊：** [https://wiki.eryajf.net/learning-weekly/](https://wiki.eryajf.net/learning-weekly/)
+**学习周刊：** [http://fsvip.gitee.io/hexo-theme-fluid//learning-weekly/](http://fsvip.gitee.io/hexo-theme-fluid//learning-weekly/)
 
-> 可通过此地址进行 rss 订阅：[rss](https://wiki.eryajf.net/rss.xml)
-> 也可通过此地址单独订阅博客的学习周刊：[rss](https://wiki.eryajf.net/learning-weekly.xml)
+> 可通过此地址进行 rss 订阅：[rss](http://fsvip.gitee.io/hexo-theme-fluid//rss.xml)
+> 也可通过此地址单独订阅博客的学习周刊：[rss](http://fsvip.gitee.io/hexo-theme-fluid//learning-weekly.xml)
 
 ---
 

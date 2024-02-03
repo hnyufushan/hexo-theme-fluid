@@ -7,10 +7,7 @@ module.exports = [
       { text: 'Docker专区', link: '/dockerZQ/'},
       { text: '实战教程', link: '/actual-learn/'},
       { text: 'Shell', link: '/shell/'},
-      { text: '前端实践', link: '/front-code/'},
       { text: 'Vue学习笔记', link: '/vue-learn/'},
-      { text: 'Golang学习笔记', link: '/go-learn/'},
-      { text: 'Golang编程技巧', link: '/go-code/'},
     ]
   },
   { text: '运维',link: '/ops/',

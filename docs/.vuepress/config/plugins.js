@@ -1,6 +1,6 @@
 // set your global feed options - override in page frontmatter `feed`
 const feed_options = {
-  canonical_base: 'https://wiki.eryajf.net',
+  canonical_base: 'http://fsvip.gitee.io/hexo-theme-fluid/',
   count: 5000,
 };
 
@@ -8,7 +8,7 @@ const autometa_options = {
   site: {
     name: 'Eryajf',
   },
-  canonical_base: 'https://wiki.eryajf.net',
+  canonical_base: 'http://fsvip.gitee.io/hexo-theme-fluid/',
 };
 
 // 插件配置
@@ -136,7 +136,7 @@ module.exports = [
   'vuepress-plugin-mermaidjs',
   [
     'sitemap', {
-      hostname: 'https://wiki.eryajf.net',
+      hostname: 'http://fsvip.gitee.io/hexo-theme-fluid/',
       exclude: ["/404.html"],
     },
   ],
@@ -173,7 +173,7 @@ module.exports = [
 
   // 站点地图
   // 'robots', {
-  //   host: "https://wiki.eryajf.net",
+  //   host: "http://fsvip.gitee.io/hexo-theme-fluid/",
   //   disallowAll: false,
   //   allowAll: true,
   //   sitemap: "/sitemap.xml",

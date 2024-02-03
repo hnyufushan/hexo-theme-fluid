@@ -5,9 +5,9 @@ module.exports = [
   ['meta',{name: 'keywords',content: '小于博客,Linux,运维,yum,运维艺术,eryajf,jenkins,nexus,golang,vue'}],
   ['meta', { name: 'baidu-site-verification', content: 'code-LTKHwOecxI' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
-  ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}],
+  ['meta', {name: 'referrer', content: 'no-referrer'}],
   ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3114978_qe0b39no76.css' }], // 阿里云在线矢量库,字数和访客数图标使用
-  // 搜索框添加快捷键
+  // 搜索框添加快捷键  <meta name="referrer" content="no-referrer" />
   ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/pgmanor-self.js"}]
 
   // [

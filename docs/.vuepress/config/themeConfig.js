@@ -8,7 +8,7 @@ module.exports = {
   nav, // 顶部导航栏
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   logo: '/img/logo.png', // 导航栏logo
-  repo: 'eryajf/eryajf.github.io', // 导航栏右侧生成Github链接
+  repo: 'hnyufushan/hnyufushan.github.io', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   editLinks: false, // 关闭编辑按钮,此编辑无实际意义
@@ -89,26 +89,26 @@ module.exports = {
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/eryajf',
+        link: 'https://github.com/hnyufushan',
       },
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:eryajf@163.com',
+        link: 'mailto:82271092@qq.com',
       },
       {
         iconClass: 'icon-rss',
         title: '订阅',
-        link: 'https://wiki.eryajf.net/rss.xml',
+        link: 'http://fsvip.gitee.io/hexo-theme-fluid//rss.xml',
       },
     ],
   },
   // 此处定义了访问地球功能,注释掉了,使用首页3D的展示方式
-  htmlModules,
+  // htmlModules,
   footer: {
     // 页脚信息
     createYear: 2017, // 博客创建年份
     copyrightInfo:
-      '| <a href="https://www.foreverblog.cn/" class="d-inline-block text-muted" target="_blank" rel="external nofollow"><img src="https://t.eryajf.net/imgs/2022/01/964560013b68c2e4.png" alt="点击查看十年之约" style="width:auto;height:11px;"> | <a rel="nofollow " target="_blank" href="https://beian.miit.gov.cn/">浙ICP备18057030号</a>', // 博客版权信息，支持a标签
+      '| <a href="https://www.foreverblog.cn/" class="d-inline-block text-muted" target="_blank" rel="external nofollow"><img src="https://img1.baidu.com/it/u=2571544424,861202602&fm=253&fmt=auto&app=138&f=JPEG?w=525&h=500" alt="点击查看十年之约" style="width:auto;height:11px;"> | <a rel="nofollow " target="_blank" href="https://beian.miit.gov.cn/">豫ICP备2022014539号</a>', // 博客版权信息，支持a标签
   },
 }

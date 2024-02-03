@@ -16,7 +16,7 @@ rsync -az -e 'ssh -p 2023' --exclude='learning-weekly.xml' --delete docs/.vuepre
 sleep 5
 
 # 刷新
-doge flush path -p "https://wiki.eryajf.net/"
+doge flush path -p "http://fsvip.gitee.io/hexo-theme-fluid//"
 doge flush path -p "https://comment.eryajf.net/"
 
 # 更新检索的索引数据
