@@ -14,20 +14,20 @@
             "date_modified": "2023-02-26T13:04:41.000Z"
         },
         {
-            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/d4534a/",
-            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/d4534a/",
-            "title": "腾讯云日志产品CLS使用以及成本控制的最佳实践",
-            "summary": "日志成本控制主要有如下几个维度：- 减量：去掉没有意义的无效日志，只打印关键日志。- 减周期：尽可能减少日志存储的时长。- 转低频：低频相较于标准存储，可降低 6 0%--70%的成本。- 慎开全文索引：全文索引将会把所有日志全部索引一遍，并且这个存储是未压缩的存储，如果开启全文索引，则存储往往会比不开的存储高出 4--10 倍。",
-            "image": "http://t.eryajf.net/imgs/2023/05/d09320ca6917fc3f.jpg",
-            "date_modified": "2023-05-19T09:15:57.000Z"
-        },
-        {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/4bcf72/",
             "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/4bcf72/",
             "title": "CMDB平台建设指南",
             "summary": "我们的运维团队汇聚了一群优秀的，富有想法的年轻人。每次周会里边，当我们完成了各自日常工作的交流沟通之后，总是会跳出当下，天南海北，胡言乱语地头脑风暴一番。在这些看似  闲笔  的沟通当中，我们进行了大量的运维规范以及最佳实践的讨论，而当我们进行地讨论越多，越能够发现一个问题，无论是对于一个全流程(指一个项目的整个生命周期)命名的规范约束落地，还是对发布平台以应用维度的主机列表维护，都步步绕不开一个能够真正解决运维痛点的 CMDB 平台。注意，这里在 CMDB 这个名词的前边加了一个定语，真正解决运维痛点。事实上在这之前，我们并非没有做过 CMDB 平台的建设，只不过由于我们以往对这一概念的认知不足，完全交由运维开发同学，按他的一些经验想法开发出来的 CMDB，却总是难以真正在实际运维生产当中落地，简而言之就是，CMDB 平台做过，但都失败了。",
             "image": "https://t.eryajf.net/imgs/2023/07/1688807086693.png",
             "date_modified": "2023-07-08T16:56:07.000Z"
+        },
+        {
+            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/d4534a/",
+            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/d4534a/",
+            "title": "腾讯云日志产品CLS使用以及成本控制的最佳实践",
+            "summary": "日志成本控制主要有如下几个维度：- 减量：去掉没有意义的无效日志，只打印关键日志。- 减周期：尽可能减少日志存储的时长。- 转低频：低频相较于标准存储，可降低 6 0%--70%的成本。- 慎开全文索引：全文索引将会把所有日志全部索引一遍，并且这个存储是未压缩的存储，如果开启全文索引，则存储往往会比不开的存储高出 4--10 倍。",
+            "image": "http://t.eryajf.net/imgs/2023/05/d09320ca6917fc3f.jpg",
+            "date_modified": "2023-05-19T09:15:57.000Z"
         },
         {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/e0fcff/",
@@ -86,20 +86,20 @@
             "date_modified": "2022-06-14T17:21:26.000Z"
         },
         {
-            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/8ff051/",
-            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/8ff051/",
-            "title": "Docker 调试构建失败的 Dockerfile 的方法",
-            "summary": "当我们基于 Dockerfile 构建一个镜像的时候，不可避免的会遇到错误或失败，这个时候，通常我们会核查对应步骤执行的指令，然后调整指令，再次构建镜像，这是一种常规的方法。其实，因为 Docker 底层存储的机制，我们可以直接进入到失败之前成功的那次状态中，然后二次调试我们的指令，从而做到有的放矢地验证。",
-            "image": "http://t.eryajf.net/imgs/2022/10/614b90515388dca3.png",
-            "date_modified": "2022-10-22T21:58:03.000Z"
-        },
-        {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/674f53/",
             "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/674f53/",
             "title": "Docker容器如何优雅地访问宿主机网络",
             "summary": "某些时候，我们会有在容器内容访问宿主机某个服务的需求，比如现在 openai 无法直接访问，需要给项目添加代理，我的 chatgpt-dingtalk 项目支持了通过环境变量指定代理地址。",
             "image": "http://t.eryajf.net/imgs/2023/03/215c61e103505625.png",
             "date_modified": "2023-03-07T13:59:35.000Z"
+        },
+        {
+            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/8ff051/",
+            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/8ff051/",
+            "title": "Docker 调试构建失败的 Dockerfile 的方法",
+            "summary": "当我们基于 Dockerfile 构建一个镜像的时候，不可避免的会遇到错误或失败，这个时候，通常我们会核查对应步骤执行的指令，然后调整指令，再次构建镜像，这是一种常规的方法。其实，因为 Docker 底层存储的机制，我们可以直接进入到失败之前成功的那次状态中，然后二次调试我们的指令，从而做到有的放矢地验证。",
+            "image": "http://t.eryajf.net/imgs/2022/10/614b90515388dca3.png",
+            "date_modified": "2022-10-22T21:58:03.000Z"
         },
         {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/e8b7f8/",
@@ -110,14 +110,6 @@
             "date_modified": "2022-05-09T23:48:06.000Z"
         },
         {
-            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/700318/",
-            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/700318/",
-            "title": "docker-compose部署openldap时初始化数据的两种方式",
-            "summary": "通常我们会通过docker-compose快速拉起一个openLDAP的测试环境用于一些功能的验证或调试，但是有一些基础数据，没必要总是反复创建，比如两个基础组织用户与分组，所以我就考虑如何能够将这两个创建做到容器启动的过程中。",
-            "image": "http://t.eryajf.net/imgs/2022/05/79547dc28b819ac9.jpg",
-            "date_modified": "2022-05-17T13:58:24.000Z"
-        },
-        {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/aa0651/",
             "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/aa0651/",
             "title": "openLDAP入门系列笔记第一篇--捋透openLDAP的基础概念",
@@ -126,12 +118,12 @@
             "date_modified": "2022-07-17T22:00:19.000Z"
         },
         {
-            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/e78558/",
-            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/e78558/",
-            "title": "openLDAP入门系列笔记第三篇--ldapsearch查询语法整理入门",
-            "summary": "有人可能会觉得，有了go-ldap-admin这个平台之后，就不需要再了解这些查询方面的知识了，其实这是一个误区，go-ldap-admin平台的确接管了ldap的一应管理，但是ldap终究还是要对接到第三方应用，这个时候，掌握一点简单的查询语法，就是很有必要的。",
-            "image": "http://t.eryajf.net/imgs/2023/02/7f4d74f47e3e2773.jpg",
-            "date_modified": "2023-02-20T19:57:56.000Z"
+            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/700318/",
+            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/700318/",
+            "title": "docker-compose部署openldap时初始化数据的两种方式",
+            "summary": "通常我们会通过docker-compose快速拉起一个openLDAP的测试环境用于一些功能的验证或调试，但是有一些基础数据，没必要总是反复创建，比如两个基础组织用户与分组，所以我就考虑如何能够将这两个创建做到容器启动的过程中。",
+            "image": "http://t.eryajf.net/imgs/2022/05/79547dc28b819ac9.jpg",
+            "date_modified": "2022-05-17T13:58:24.000Z"
         },
         {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/ea10fa/",
@@ -140,6 +132,14 @@
             "summary": "本文我们来认识理解一个很重要的概念：objectCLass，其实了解它是很难的，网上不少介绍的文章也讲的云里雾里，看完之后反而更加迷糊，本文将不求完全讲透，但求你看完会用。",
             "image": "http://t.eryajf.net/imgs/2022/07/c0bb4688fe827e10.png",
             "date_modified": "2022-07-17T22:02:31.000Z"
+        },
+        {
+            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/e78558/",
+            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/e78558/",
+            "title": "openLDAP入门系列笔记第三篇--ldapsearch查询语法整理入门",
+            "summary": "有人可能会觉得，有了go-ldap-admin这个平台之后，就不需要再了解这些查询方面的知识了，其实这是一个误区，go-ldap-admin平台的确接管了ldap的一应管理，但是ldap终究还是要对接到第三方应用，这个时候，掌握一点简单的查询语法，就是很有必要的。",
+            "image": "http://t.eryajf.net/imgs/2023/02/7f4d74f47e3e2773.jpg",
+            "date_modified": "2023-02-20T19:57:56.000Z"
         },
         {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/53399c/",
@@ -158,20 +158,20 @@
             "date_modified": "2022-05-09T23:48:23.000Z"
         },
         {
-            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/48e307/",
-            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/48e307/",
-            "title": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
-            "summary": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
-            "image": "http://t.eryajf.net/imgs/2022/07/63da28a5c19aecfa.png",
-            "date_modified": "2022-07-23T11:06:46.000Z"
-        },
-        {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/d195b4/",
             "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/d195b4/",
             "title": "如何将个人的GitHub主页配置的优雅好看",
             "summary": "我很早注意到，GitHub当中，你创建一个与自己账号同名的仓库，然后这个仓库的内容会展示在个人主页，换言之，你可以通过装扮这个仓库，来实现个人主页的装扮。",
             "image": "http://t.eryajf.net/imgs/2022/07/b67354a1cd3df47e.png",
             "date_modified": "2022-07-23T11:10:55.000Z"
+        },
+        {
+            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/48e307/",
+            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/48e307/",
+            "title": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
+            "summary": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
+            "image": "http://t.eryajf.net/imgs/2022/07/63da28a5c19aecfa.png",
+            "date_modified": "2022-07-23T11:06:46.000Z"
         },
         {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/226388/",
@@ -190,14 +190,6 @@
             "date_modified": "2022-06-01T10:30:49.000Z"
         },
         {
-            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/",
-            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/",
-            "title": "利用GitHub Actions自动优雅地为项目构建Releases",
-            "summary": "基于git管理的项目，通常在分支管理之外，还会通过tag来对代码进行管理，尤其像go语言，go mod更是依赖tag来对项目的版本进行管理，因此合理的版本管理，对于项目的发展也会是更加健康的一个激励。GitHub中有一个Releases的概念，其实与tag差不多，简单理解就是在打一个tag的基础之上，用releases来进行管理。如果你没有了解过这里边的概念，那么要想成功打一个release还是有点难度的。",
-            "image": "http://t.eryajf.net/imgs/2022/06/7de93f2784bd8d32.jpg",
-            "date_modified": "2022-06-22T17:20:54.000Z"
-        },
-        {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/1b1ba3/",
             "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/1b1ba3/",
             "title": "利用GitHub Actions自动获取博客rss文章",
@@ -206,19 +198,20 @@
             "date_modified": "2022-06-27T16:39:27.000Z"
         },
         {
+            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/",
+            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/",
+            "title": "利用GitHub Actions自动优雅地为项目构建Releases",
+            "summary": "基于git管理的项目，通常在分支管理之外，还会通过tag来对代码进行管理，尤其像go语言，go mod更是依赖tag来对项目的版本进行管理，因此合理的版本管理，对于项目的发展也会是更加健康的一个激励。GitHub中有一个Releases的概念，其实与tag差不多，简单理解就是在打一个tag的基础之上，用releases来进行管理。如果你没有了解过这里边的概念，那么要想成功打一个release还是有点难度的。",
+            "image": "http://t.eryajf.net/imgs/2022/06/7de93f2784bd8d32.jpg",
+            "date_modified": "2022-06-22T17:20:54.000Z"
+        },
+        {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/5baf0a/",
             "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/5baf0a/",
             "title": "利用GitHub Actions自动构建项目的docker镜像并发布到DockerHub",
             "summary": "做一个开源项目，尽量提供给受众以简单易用的快速上手体验，也是项目能够立刻把人抓住的一个关键。现在如果想让用户快速体验项目，除了提供demo环境之外，还有一个方案，那就是提供一个完备的docker-compose，让人能够直接一键拉起。",
             "image": "https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220723_105957.png",
             "date_modified": "2022-07-23T11:01:57.000Z"
-        },
-        {
-            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/4ba0f4/",
-            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/4ba0f4/",
-            "title": "利用GitHub Actions自动生成个人star列表并归类",
-            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
-            "date_modified": "2022-07-29T16:26:09.000Z"
         },
         {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/db92f0/",
@@ -261,6 +254,13 @@
             "date_modified": "2023-02-28T14:56:10.000Z"
         },
         {
+            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/4ba0f4/",
+            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/4ba0f4/",
+            "title": "利用GitHub Actions自动生成个人star列表并归类",
+            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
+            "date_modified": "2022-07-29T16:26:09.000Z"
+        },
+        {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/7edb58/",
             "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/7edb58/",
             "title": "认识并使用一个透明代理http-server",
@@ -277,14 +277,6 @@
             "date_modified": "2022-09-20T23:10:54.000Z"
         },
         {
-            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/de5421/",
-            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/de5421/",
-            "title": "nexus2.x升级到3.x之后仓库地址改变的问题探索",
-            "summary": "了解nexus2升级到nexus3之后在仓亏命名规范上的差异。",
-            "image": "http://t.eryajf.net/imgs/2023/05/f659f8871ff6931c.jpg",
-            "date_modified": "2023-05-21T09:49:01.000Z"
-        },
-        {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/18ca89/",
             "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/18ca89/",
             "title": "将npm本地包上传到nexus私服的实践",
@@ -293,20 +285,20 @@
             "date_modified": "2022-09-20T23:11:24.000Z"
         },
         {
+            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/de5421/",
+            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/de5421/",
+            "title": "nexus2.x升级到3.x之后仓库地址改变的问题探索",
+            "summary": "了解nexus2升级到nexus3之后在仓亏命名规范上的差异。",
+            "image": "http://t.eryajf.net/imgs/2023/05/f659f8871ff6931c.jpg",
+            "date_modified": "2023-05-21T09:49:01.000Z"
+        },
+        {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/347662/",
             "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/347662/",
             "title": "关于gradle中plugins依赖未走私服导致编译失败的原因探析",
             "summary": "本文将介绍gradle中plugins配置区块儿的私服代理配置问题",
             "image": "http://t.eryajf.net/imgs/2023/06/d12ea0825cebfefe.png",
             "date_modified": "2023-06-03T21:34:58.000Z"
-        },
-        {
-            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/fa2478/",
-            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/fa2478/",
-            "title": "Jenkins基于Share Library共享库的最佳实践探索",
-            "summary": "古代治学总结有人生三境界，在我看来，Jenkins 使用接入亦有三个阶段，这也是每一个运维人员应用 Jenkins 所必须要经历的。",
-            "image": "http://t.eryajf.net/imgs/2022/05/307b7573bb77f2bb.jpg",
-            "date_modified": "2022-05-22T11:23:33.000Z"
         },
         {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/ef36d8/",
@@ -331,6 +323,14 @@
             "summary": "在流水线的构建过程中，免不了会有逻辑判断的地方，通常我们可以使用 when，if 来编写判断的语句，但是当需要判断的分支大于两个的时候，就不再推荐使用如上两种方式了。",
             "image": "https://t.eryajf.net/imgs/2023/09/1694100590964.jpg",
             "date_modified": "2023-09-07T23:28:25.000Z"
+        },
+        {
+            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/fa2478/",
+            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/fa2478/",
+            "title": "Jenkins基于Share Library共享库的最佳实践探索",
+            "summary": "古代治学总结有人生三境界，在我看来，Jenkins 使用接入亦有三个阶段，这也是每一个运维人员应用 Jenkins 所必须要经历的。",
+            "image": "http://t.eryajf.net/imgs/2022/05/307b7573bb77f2bb.jpg",
+            "date_modified": "2022-05-22T11:23:33.000Z"
         },
         {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/90c88d/",
@@ -493,6 +493,14 @@
             "date_modified": "2024-01-04T23:08:08.000Z"
         },
         {
+            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/",
+            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/",
+            "title": "博客导引",
+            "summary": "博客经过了五年的积累之后，已经沉淀了许多的内容，在此有必要做一个导引，帮助你更好地认识到，你正在浏览的，是一个构思多么用心，设计多么优秀，内容多么丰富，情操多么高尚，境界多么高雅的博客。",
+            "image": "https://raw.githubusercontent.com/eryajf/eryajf/master/assets/github-contribution-grid-snake.svg",
+            "date_modified": "2023-02-13T10:56:00.000Z"
+        },
+        {
             "id": "http://fsvip.gitee.io/hexo-theme-fluid/looking-for-a-job/",
             "url": "http://fsvip.gitee.io/hexo-theme-fluid/looking-for-a-job/",
             "title": "求职公告",
@@ -505,14 +513,6 @@
             "title": "置顶文章汇总",
             "summary": "因为首页只展示最近更新的十篇文章，过多优秀的文章不能都置顶，因此单独一篇文章，将博客中精华内容罗列于此。",
             "date_modified": "2022-05-23T22:26:48.000Z"
-        },
-        {
-            "id": "http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/",
-            "url": "http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/",
-            "title": "博客导引",
-            "summary": "博客经过了五年的积累之后，已经沉淀了许多的内容，在此有必要做一个导引，帮助你更好地认识到，你正在浏览的，是一个构思多么用心，设计多么优秀，内容多么丰富，情操多么高尚，境界多么高雅的博客。",
-            "image": "https://raw.githubusercontent.com/eryajf/eryajf/master/assets/github-contribution-grid-snake.svg",
-            "date_modified": "2023-02-13T10:56:00.000Z"
         }
     ]
 }
