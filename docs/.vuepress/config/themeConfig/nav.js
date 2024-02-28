@@ -7,18 +7,15 @@ module.exports = [
       { text: 'Docker专区', link: '/dockerZQ/'},
       { text: '实战教程', link: '/actual-learn/'},
       { text: 'Shell', link: '/shell/'},
+      { text: 'H2数据库', link: '/H2-learn/'},
       { text: 'Vue学习笔记', link: '/vue-learn/'},
     ]
   },
   { text: '运维',link: '/ops/',
     items: [
-      { text: '最佳实践', link: '/best-practices/'},
-      { text: '迎刃而解', link: '/solve-it/'},
       { text: 'Nginx', link: '/nginx/'},
       { text: 'Php', link: '/php/'},
-      { text: 'Zabbix', link: '/zabbix/'},
       { text: 'Prometheus', link: '/prometheus/'},
-      { text: 'Grafana', link: '/grafana/'},
       { text: 'CentOS', link: '/centos/'},
       { text: 'Systemd', link: '/systemd/'},
       { text: 'Docker', link: '/docker/'},
@@ -50,18 +47,16 @@ module.exports = [
   { text: '生活',link: '/life/',
     items: [
       { text: '随写编年', link: '/sxbn/'},
-      { text: '家人物语', link: '/jrwy/'},
-      { text: '追忆青春', link: '/zyqc/'},
-      { text: '父亲的朋友圈', link: '/fqdpyq/'},
       { text: '电影音乐', link: '/dyyy/'},
       { text: '效率工具', link: '/xlgj/'},
       { text: '博客相关', link: '/bkxg/'},
     ]
   },
-  { text: '周刊', link: '/weekly/',
+  { text: '积累', link: '/weekly/',
     items: [
+      { text: '最佳实践', link: '/best-practices/'},
+      { text: '迎刃而解', link: '/solve-it/'},
       { text: '学习周刊', link: '/learning-weekly/'},
-      { text: 'Obsidian插件周刊', link: '/obsidian-weekly/'},
     ]
   },
   { text: '关于', link: '/about/' },
