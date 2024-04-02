@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://fsvip.gitee.io/hexo-theme-fluid/</id>
     <title>小于博客</title>
-    <updated>2024-03-08T05:42:53.348Z</updated>
+    <updated>2024-04-02T02:51:46.699Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="http://fsvip.gitee.io/hexo-theme-fluid/"/>
     <link rel="self" href="http://fsvip.gitee.io/hexo-theme-fluid/feed.atom"/>
@@ -33,20 +33,20 @@
         <summary type="html"><![CDATA[准备给开源项目做一个镜像，由于当前使用的是 M1 型号的 Mac 电脑，打出来的镜像无法运行在 AMD 架构之上，但是在 dockerhub 上又见过一些比较大的项目的镜像，支持多平台，因此就了解了一波，本文记录一下实操过程。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[docker exec命令中含有通配符执行失败的问题]]></title>
-        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/1cb90e/</id>
-        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/1cb90e/">
-        </link>
-        <updated>2022-06-14T17:21:26.000Z</updated>
-        <summary type="html"><![CDATA[我写的的demo环境是通过docker-compose一键拉起的。因为服务器部署，与本地拉起测试有一些配置需要调整，于是打算用脚本做一下，这个时候发现执行带有通配符的命令会报如下错误]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Docker 调试构建失败的 Dockerfile 的方法]]></title>
         <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/8ff051/</id>
         <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/8ff051/">
         </link>
         <updated>2022-10-22T21:58:03.000Z</updated>
         <summary type="html"><![CDATA[当我们基于 Dockerfile 构建一个镜像的时候，不可避免的会遇到错误或失败，这个时候，通常我们会核查对应步骤执行的指令，然后调整指令，再次构建镜像，这是一种常规的方法。其实，因为 Docker 底层存储的机制，我们可以直接进入到失败之前成功的那次状态中，然后二次调试我们的指令，从而做到有的放矢地验证。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[docker exec命令中含有通配符执行失败的问题]]></title>
+        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/1cb90e/</id>
+        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/1cb90e/">
+        </link>
+        <updated>2022-06-14T17:21:26.000Z</updated>
+        <summary type="html"><![CDATA[我写的的demo环境是通过docker-compose一键拉起的。因为服务器部署，与本地拉起测试有一些配置需要调整，于是打算用脚本做一下，这个时候发现执行带有通配符的命令会报如下错误]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docker容器如何优雅地访问宿主机网络]]></title>
@@ -89,14 +89,6 @@
         <summary type="html"><![CDATA[我很早注意到，GitHub当中，你创建一个与自己账号同名的仓库，然后这个仓库的内容会展示在个人主页，换言之，你可以通过装扮这个仓库，来实现个人主页的装扮。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[利用GitHub Actions自动将项目贡献者列表添加到README中]]></title>
-        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/2cb154/</id>
-        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/2cb154/">
-        </link>
-        <updated>2022-06-01T10:30:49.000Z</updated>
-        <summary type="html"><![CDATA[当我们负责的项目有越来越多的人加入进行协作之后，将贡献者添加到 README 中是一个很好的激励作用，很多大的项目也都是这么做的，本文就来讲一下，如何借助 Github Actions 自动将项目贡献者列表添加到 README 中。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[利用GitHub Actions自动为README添加TOC目录]]></title>
         <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/226388/</id>
         <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/226388/">
@@ -105,12 +97,12 @@
         <summary type="html"><![CDATA[GitHub的Markdown目前不支持直接[TOC]渲染文章的目录，有些README则需要这样的效果，可以借助外部工具进行生成，也可以借助 GitHub Actions 自动生成，本文就介绍这种方式。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[利用GitHub Actions自动优雅地为项目构建Releases]]></title>
-        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/</id>
-        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/">
+        <title type="html"><![CDATA[利用GitHub Actions自动将项目贡献者列表添加到README中]]></title>
+        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/2cb154/</id>
+        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/2cb154/">
         </link>
-        <updated>2022-06-22T17:20:54.000Z</updated>
-        <summary type="html"><![CDATA[基于git管理的项目，通常在分支管理之外，还会通过tag来对代码进行管理，尤其像go语言，go mod更是依赖tag来对项目的版本进行管理，因此合理的版本管理，对于项目的发展也会是更加健康的一个激励。GitHub中有一个Releases的概念，其实与tag差不多，简单理解就是在打一个tag的基础之上，用releases来进行管理。如果你没有了解过这里边的概念，那么要想成功打一个release还是有点难度的。]]></summary>
+        <updated>2022-06-01T10:30:49.000Z</updated>
+        <summary type="html"><![CDATA[当我们负责的项目有越来越多的人加入进行协作之后，将贡献者添加到 README 中是一个很好的激励作用，很多大的项目也都是这么做的，本文就来讲一下，如何借助 Github Actions 自动将项目贡献者列表添加到 README 中。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[利用GitHub Actions自动获取博客rss文章]]></title>
@@ -121,12 +113,12 @@
         <summary type="html"><![CDATA[在GitHub中，我们能看到每个人都在折腾个人同名仓库的profile，我在这上边也花了不少的时间，在这个冲浪经历中，感觉外国人折腾的好像要更厉害一些，浏览过程中看到有人能直接在个人的profile中生成博客最近更新文章，很是新颖，于是就学习了一下。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[利用GitHub Actions自动构建项目的docker镜像并发布到DockerHub]]></title>
-        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/5baf0a/</id>
-        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/5baf0a/">
+        <title type="html"><![CDATA[利用GitHub Actions自动优雅地为项目构建Releases]]></title>
+        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/</id>
+        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/">
         </link>
-        <updated>2022-07-23T11:01:57.000Z</updated>
-        <summary type="html"><![CDATA[做一个开源项目，尽量提供给受众以简单易用的快速上手体验，也是项目能够立刻把人抓住的一个关键。现在如果想让用户快速体验项目，除了提供demo环境之外，还有一个方案，那就是提供一个完备的docker-compose，让人能够直接一键拉起。]]></summary>
+        <updated>2022-06-22T17:20:54.000Z</updated>
+        <summary type="html"><![CDATA[基于git管理的项目，通常在分支管理之外，还会通过tag来对代码进行管理，尤其像go语言，go mod更是依赖tag来对项目的版本进行管理，因此合理的版本管理，对于项目的发展也会是更加健康的一个激励。GitHub中有一个Releases的概念，其实与tag差不多，简单理解就是在打一个tag的基础之上，用releases来进行管理。如果你没有了解过这里边的概念，那么要想成功打一个release还是有点难度的。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[利用GitHub Actions自动生成GitHub的Fans]]></title>
@@ -135,6 +127,14 @@
         </link>
         <updated>2022-07-29T15:51:43.000Z</updated>
         <summary type="html"><![CDATA[GitHub中的follow功能，类似于微博中的关注，而关注我们的大佬，就更应该有一个合适的地方安排，本文将分享如何基于GitHub Actions自动生成个人的Fans列表。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[利用GitHub Actions自动构建项目的docker镜像并发布到DockerHub]]></title>
+        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/5baf0a/</id>
+        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/5baf0a/">
+        </link>
+        <updated>2022-07-23T11:01:57.000Z</updated>
+        <summary type="html"><![CDATA[做一个开源项目，尽量提供给受众以简单易用的快速上手体验，也是项目能够立刻把人抓住的一个关键。现在如果想让用户快速体验项目，除了提供demo环境之外，还有一个方案，那就是提供一个完备的docker-compose，让人能够直接一键拉起。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[利用GitHub Actions自动生成个人star列表并归类]]></title>
@@ -225,20 +225,20 @@
         <summary type="html"><![CDATA[以往Jenkins实践当中，配置了共享库的流水线方案，通过将核心公共逻辑抽离成膜版，项目个性化配置信息放到引导文件中的方式进行推进。这种方案没有什么毛病，对于运维的维护工作也是比较友好的，只是后来我们打算再在Jenkins上层做一下平台化封装的时候，发现还是存在一些问题，并且有一些难度的。最近我了解学习到了一个与 MySQL Database 插件结合的思路，能够比较好解决这种问题，那么接下来话不多说，直接进入正题，让我们来认识一下这个插件。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Jenkins-Groovy中三元表达式的用法]]></title>
-        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/ebae63/</id>
-        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/ebae63/">
-        </link>
-        <updated>2022-09-10T14:53:11.000Z</updated>
-        <summary type="html"><![CDATA[我们在使用pipeline的时候，如果某一个变量没有正常声明，则会遇到变量定义失败的错误，这个时候，我们可以借助三元表达式来解决这个问题。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Jenkins-Groovy中Switch的高阶用法]]></title>
         <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/44a06c/</id>
         <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/44a06c/">
         </link>
         <updated>2023-09-07T23:28:25.000Z</updated>
         <summary type="html"><![CDATA[在流水线的构建过程中，免不了会有逻辑判断的地方，通常我们可以使用 when，if 来编写判断的语句，但是当需要判断的分支大于两个的时候，就不再推荐使用如上两种方式了。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jenkins-Groovy中三元表达式的用法]]></title>
+        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/ebae63/</id>
+        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/ebae63/">
+        </link>
+        <updated>2022-09-10T14:53:11.000Z</updated>
+        <summary type="html"><![CDATA[我们在使用pipeline的时候，如果某一个变量没有正常声明，则会遇到变量定义失败的错误，这个时候，我们可以借助三元表达式来解决这个问题。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Jenkins基于Share Library共享库的最佳实践探索]]></title>
@@ -273,20 +273,20 @@
         <summary type="html"><![CDATA[k8s集群接入了kubegems之后删除namespace报错kubegems-local-controller-webhook not found]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[写在博客发表文章600篇的节点]]></title>
-        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/b4e432/</id>
-        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/b4e432/">
-        </link>
-        <updated>2022-05-29T09:50:49.000Z</updated>
-        <summary type="html"><![CDATA[我想，博客已经发表文章600篇，近90w字，总有些话想说，就把这里当做我的独白罢！]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[k8s删除namespace之后状态一直为Terminating]]></title>
         <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/de0fed/</id>
         <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/de0fed/">
         </link>
         <updated>2023-07-15T21:18:24.000Z</updated>
         <summary type="html"><![CDATA[k8s删除namespace之后状态一直为Terminating]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[写在博客发表文章600篇的节点]]></title>
+        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/b4e432/</id>
+        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/b4e432/">
+        </link>
+        <updated>2022-05-29T09:50:49.000Z</updated>
+        <summary type="html"><![CDATA[我想，博客已经发表文章600篇，近90w字，总有些话想说，就把这里当做我的独白罢！]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[我的2022年]]></title>
@@ -305,6 +305,22 @@
         <summary type="html"><![CDATA[接到一个需求，是基于 Jenkins 给 unity 打包，unity 则需要在 Windows 环境下构建，因此实现这个需求的第一步，就是需要解决给主 Jenkins 添加一个 Windows 节点的 slave。而 slave 基于Java启动，如何将这个Java启动的命令放到后台启动，就成了一个问题！]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[vscode开发前端项目时如何tab补全自定义HTML标签]]></title>
+        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/62b2b7/</id>
+        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/62b2b7/">
+        </link>
+        <updated>2022-08-01T15:28:09.000Z</updated>
+        <summary type="html"><![CDATA[当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解]]></title>
+        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/c2262c/</id>
+        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/c2262c/">
+        </link>
+        <updated>2022-08-25T09:04:55.000Z</updated>
+        <summary type="html"><![CDATA[前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[结合Multitouch完成我在Mac触摸板上的高效使用]]></title>
         <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/301514/</id>
         <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/301514/">
@@ -319,22 +335,6 @@
         </link>
         <updated>2023-04-24T22:23:54.000Z</updated>
         <summary type="html"><![CDATA[解决一个brew install时出现的错误。]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解]]></title>
-        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/c2262c/</id>
-        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/c2262c/">
-        </link>
-        <updated>2022-08-25T09:04:55.000Z</updated>
-        <summary type="html"><![CDATA[前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vscode开发前端项目时如何tab补全自定义HTML标签]]></title>
-        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/62b2b7/</id>
-        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/62b2b7/">
-        </link>
-        <updated>2022-08-01T15:28:09.000Z</updated>
-        <summary type="html"><![CDATA[当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[mac电脑安装Java开发环境]]></title>
@@ -353,20 +353,20 @@
         <summary type="html"><![CDATA[zsh 中有专门的插件来解决 docker 命令补全的问题，安装配置也比较简单，以下是操作的步骤。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[博客接入CDN的折腾-对阿里云七牛云蓝易云多吉云几家CDN使用评测]]></title>
-        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/1a0733/</id>
-        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/1a0733/">
-        </link>
-        <updated>2023-01-30T11:44:55.000Z</updated>
-        <summary type="html"><![CDATA[一句话来讲：我需要 CDN 的加速能力，但是又不想为对抗刷流量付出过多的精力，在这个基础之上，费用越便宜越好。毕竟是个人博客，服务器费用已是自己承担，分享内容已消耗很多的精力，现在 CDN 如果再有过多的精力和金钱投入，就太难受了。有了以上的准备及预期之后，我开始了博客接入 CDN 的折腾之旅。顺着这个折腾之旅，也了解体验了不少国内的 CDN 产品，聊作记录，兼为评测，以为分享。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Vuepress配置评论插件为Artalk]]></title>
         <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/b74c2b/</id>
         <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/b74c2b/">
         </link>
         <updated>2022-11-27T17:33:19.000Z</updated>
         <summary type="html"><![CDATA[把博客平台迁移到 vuepress 以来，之前折腾过好几次评论系统，大多是依赖第三方作为后端存储，导致要么是加载速度不理想，要么是配置费劲儿，于是，我终于下决心，自建评论系统。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博客接入CDN的折腾-对阿里云七牛云蓝易云多吉云几家CDN使用评测]]></title>
+        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/1a0733/</id>
+        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/1a0733/">
+        </link>
+        <updated>2023-01-30T11:44:55.000Z</updated>
+        <summary type="html"><![CDATA[一句话来讲：我需要 CDN 的加速能力，但是又不想为对抗刷流量付出过多的精力，在这个基础之上，费用越便宜越好。毕竟是个人博客，服务器费用已是自己承担，分享内容已消耗很多的精力，现在 CDN 如果再有过多的精力和金钱投入，就太难受了。有了以上的准备及预期之后，我开始了博客接入 CDN 的折腾之旅。顺着这个折腾之旅，也了解体验了不少国内的 CDN 产品，聊作记录，兼为评测，以为分享。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vuepress添加首页轮播图与打赏按钮的配置]]></title>
@@ -425,14 +425,6 @@
         <summary type="html"><![CDATA[新的Jenkins测试环境通过docker搭建，官方镜像的基础镜像使用的是Debian系统，在执行到一些shell步骤的时候，总是会报如下错误]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第140期-2024年第01周]]></title>
-        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/face3c/</id>
-        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/face3c/">
-        </link>
-        <updated>2024-01-04T23:08:08.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第140期-两个与docker相关的开源项目]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[一次因为Mac系统升级引发的ssh无法免密登陆的问题]]></title>
         <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/9b4f5f/</id>
         <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/9b4f5f/">
@@ -441,12 +433,12 @@
         <summary type="html"><![CDATA[公司内部安卓与 iOS 打包是通过内部的一台 Mac mini 主机上部署的 Jenkins 完成的，一切都看起来非常优雅且自如。我也正在忙自己的事情，突然一个开发小哥找过来，说发布过程有问题了，其中有一个步骤是在 Jenkins 中打完包之后，将包通过 scp 传到一台 centos 服务器上，从而提供给开发者进行下载。现在出现的问题是，scp 的时候让输入密码了。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[博客导引]]></title>
-        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/</id>
-        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/">
+        <title type="html"><![CDATA[学习周刊-总第140期-2024年第01周]]></title>
+        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/face3c/</id>
+        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/face3c/">
         </link>
-        <updated>2023-02-13T10:56:00.000Z</updated>
-        <summary type="html"><![CDATA[博客经过了五年的积累之后，已经沉淀了许多的内容，在此有必要做一个导引，帮助你更好地认识到，你正在浏览的，是一个构思多么用心，设计多么优秀，内容多么丰富，情操多么高尚，境界多么高雅的博客。]]></summary>
+        <updated>2024-01-04T23:08:08.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第140期-两个与docker相关的开源项目]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[求职公告]]></title>
@@ -455,6 +447,14 @@
         </link>
         <updated>2023-03-07T10:56:00.000Z</updated>
         <summary type="html"><![CDATA[注：已找到工作，这期间得到了太多的帮助，随后有空会整理一个文档进行感谢，接下来该专心投入到工作当中啦！]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博客导引]]></title>
+        <id>http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/</id>
+        <link href="http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/">
+        </link>
+        <updated>2023-02-13T10:56:00.000Z</updated>
+        <summary type="html"><![CDATA[博客经过了五年的积累之后，已经沉淀了许多的内容，在此有必要做一个导引，帮助你更好地认识到，你正在浏览的，是一个构思多么用心，设计多么优秀，内容多么丰富，情操多么高尚，境界多么高雅的博客。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[置顶文章汇总]]></title>

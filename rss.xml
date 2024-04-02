@@ -5,7 +5,7 @@
         <link>http://fsvip.gitee.io/hexo-theme-fluid/</link>
         <description>💻学习📝记录🔗分享
 学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。</description>
-        <lastBuildDate>Fri, 08 Mar 2024 05:42:53 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Apr 2024 02:51:46 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="http://fsvip.gitee.io/hexo-theme-fluid/feed.atom" rel="self" type="application/rss+xml"/>
@@ -37,21 +37,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[docker exec命令中含有通配符执行失败的问题]]></title>
-            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/1cb90e/</link>
-            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/1cb90e/</guid>
-            <pubDate>Tue, 14 Jun 2022 17:21:26 GMT</pubDate>
-            <description><![CDATA[我写的的demo环境是通过docker-compose一键拉起的。因为服务器部署，与本地拉起测试有一些配置需要调整，于是打算用脚本做一下，这个时候发现执行带有通配符的命令会报如下错误]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/06/8647d5b91f458b86.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[Docker 调试构建失败的 Dockerfile 的方法]]></title>
             <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/8ff051/</link>
             <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/8ff051/</guid>
             <pubDate>Sat, 22 Oct 2022 21:58:03 GMT</pubDate>
             <description><![CDATA[当我们基于 Dockerfile 构建一个镜像的时候，不可避免的会遇到错误或失败，这个时候，通常我们会核查对应步骤执行的指令，然后调整指令，再次构建镜像，这是一种常规的方法。其实，因为 Docker 底层存储的机制，我们可以直接进入到失败之前成功的那次状态中，然后二次调试我们的指令，从而做到有的放矢地验证。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/10/614b90515388dca3.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[docker exec命令中含有通配符执行失败的问题]]></title>
+            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/1cb90e/</link>
+            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/1cb90e/</guid>
+            <pubDate>Tue, 14 Jun 2022 17:21:26 GMT</pubDate>
+            <description><![CDATA[我写的的demo环境是通过docker-compose一键拉起的。因为服务器部署，与本地拉起测试有一些配置需要调整，于是打算用脚本做一下，这个时候发现执行带有通配符的命令会报如下错误]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/06/8647d5b91f458b86.png">
             </enclosure>
         </item>
         <item>
@@ -100,15 +100,6 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[利用GitHub Actions自动将项目贡献者列表添加到README中]]></title>
-            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/2cb154/</link>
-            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/2cb154/</guid>
-            <pubDate>Wed, 01 Jun 2022 10:30:49 GMT</pubDate>
-            <description><![CDATA[当我们负责的项目有越来越多的人加入进行协作之后，将贡献者添加到 README 中是一个很好的激励作用，很多大的项目也都是这么做的，本文就来讲一下，如何借助 Github Actions 自动将项目贡献者列表添加到 README 中。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/06/9dc0fcdcc6ebd0c2.jpg">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[利用GitHub Actions自动为README添加TOC目录]]></title>
             <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/226388/</link>
             <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/226388/</guid>
@@ -118,12 +109,12 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[利用GitHub Actions自动优雅地为项目构建Releases]]></title>
-            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/</link>
-            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/</guid>
-            <pubDate>Wed, 22 Jun 2022 17:20:54 GMT</pubDate>
-            <description><![CDATA[基于git管理的项目，通常在分支管理之外，还会通过tag来对代码进行管理，尤其像go语言，go mod更是依赖tag来对项目的版本进行管理，因此合理的版本管理，对于项目的发展也会是更加健康的一个激励。GitHub中有一个Releases的概念，其实与tag差不多，简单理解就是在打一个tag的基础之上，用releases来进行管理。如果你没有了解过这里边的概念，那么要想成功打一个release还是有点难度的。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/06/7de93f2784bd8d32.jpg">
+            <title><![CDATA[利用GitHub Actions自动将项目贡献者列表添加到README中]]></title>
+            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/2cb154/</link>
+            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/2cb154/</guid>
+            <pubDate>Wed, 01 Jun 2022 10:30:49 GMT</pubDate>
+            <description><![CDATA[当我们负责的项目有越来越多的人加入进行协作之后，将贡献者添加到 README 中是一个很好的激励作用，很多大的项目也都是这么做的，本文就来讲一下，如何借助 Github Actions 自动将项目贡献者列表添加到 README 中。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/06/9dc0fcdcc6ebd0c2.jpg">
             </enclosure>
         </item>
         <item>
@@ -136,12 +127,12 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[利用GitHub Actions自动构建项目的docker镜像并发布到DockerHub]]></title>
-            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/5baf0a/</link>
-            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/5baf0a/</guid>
-            <pubDate>Sat, 23 Jul 2022 11:01:57 GMT</pubDate>
-            <description><![CDATA[做一个开源项目，尽量提供给受众以简单易用的快速上手体验，也是项目能够立刻把人抓住的一个关键。现在如果想让用户快速体验项目，除了提供demo环境之外，还有一个方案，那就是提供一个完备的docker-compose，让人能够直接一键拉起。]]></description>
-            <enclosure url="https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220723_105957.png">
+            <title><![CDATA[利用GitHub Actions自动优雅地为项目构建Releases]]></title>
+            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/</link>
+            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/f3e878/</guid>
+            <pubDate>Wed, 22 Jun 2022 17:20:54 GMT</pubDate>
+            <description><![CDATA[基于git管理的项目，通常在分支管理之外，还会通过tag来对代码进行管理，尤其像go语言，go mod更是依赖tag来对项目的版本进行管理，因此合理的版本管理，对于项目的发展也会是更加健康的一个激励。GitHub中有一个Releases的概念，其实与tag差不多，简单理解就是在打一个tag的基础之上，用releases来进行管理。如果你没有了解过这里边的概念，那么要想成功打一个release还是有点难度的。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/06/7de93f2784bd8d32.jpg">
             </enclosure>
         </item>
         <item>
@@ -151,6 +142,15 @@
             <pubDate>Fri, 29 Jul 2022 15:51:43 GMT</pubDate>
             <description><![CDATA[GitHub中的follow功能，类似于微博中的关注，而关注我们的大佬，就更应该有一个合适的地方安排，本文将分享如何基于GitHub Actions自动生成个人的Fans列表。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/07/71ebbd7a8dc21cb3.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[利用GitHub Actions自动构建项目的docker镜像并发布到DockerHub]]></title>
+            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/5baf0a/</link>
+            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/5baf0a/</guid>
+            <pubDate>Sat, 23 Jul 2022 11:01:57 GMT</pubDate>
+            <description><![CDATA[做一个开源项目，尽量提供给受众以简单易用的快速上手体验，也是项目能够立刻把人抓住的一个关键。现在如果想让用户快速体验项目，除了提供demo环境之外，还有一个方案，那就是提供一个完备的docker-compose，让人能够直接一键拉起。]]></description>
+            <enclosure url="https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220723_105957.png">
             </enclosure>
         </item>
         <item>
@@ -251,21 +251,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[Jenkins-Groovy中三元表达式的用法]]></title>
-            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/ebae63/</link>
-            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/ebae63/</guid>
-            <pubDate>Sat, 10 Sep 2022 14:53:11 GMT</pubDate>
-            <description><![CDATA[我们在使用pipeline的时候，如果某一个变量没有正常声明，则会遇到变量定义失败的错误，这个时候，我们可以借助三元表达式来解决这个问题。]]></description>
-            <enclosure url="https://tva2.sinaimg.cn/large/008k1Yt0ly1h4rdnv4bawj30u011g7ai.jpg">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[Jenkins-Groovy中Switch的高阶用法]]></title>
             <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/44a06c/</link>
             <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/44a06c/</guid>
             <pubDate>Thu, 07 Sep 2023 23:28:25 GMT</pubDate>
             <description><![CDATA[在流水线的构建过程中，免不了会有逻辑判断的地方，通常我们可以使用 when，if 来编写判断的语句，但是当需要判断的分支大于两个的时候，就不再推荐使用如上两种方式了。]]></description>
             <enclosure url="https://t.eryajf.net/imgs/2023/09/1694100590964.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Jenkins-Groovy中三元表达式的用法]]></title>
+            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/ebae63/</link>
+            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/ebae63/</guid>
+            <pubDate>Sat, 10 Sep 2022 14:53:11 GMT</pubDate>
+            <description><![CDATA[我们在使用pipeline的时候，如果某一个变量没有正常声明，则会遇到变量定义失败的错误，这个时候，我们可以借助三元表达式来解决这个问题。]]></description>
+            <enclosure url="https://tva2.sinaimg.cn/large/008k1Yt0ly1h4rdnv4bawj30u011g7ai.jpg">
             </enclosure>
         </item>
         <item>
@@ -305,21 +305,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[写在博客发表文章600篇的节点]]></title>
-            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/b4e432/</link>
-            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/b4e432/</guid>
-            <pubDate>Sun, 29 May 2022 09:50:49 GMT</pubDate>
-            <description><![CDATA[我想，博客已经发表文章600篇，近90w字，总有些话想说，就把这里当做我的独白罢！]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/07/a923726cbed212f0.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[k8s删除namespace之后状态一直为Terminating]]></title>
             <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/de0fed/</link>
             <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/de0fed/</guid>
             <pubDate>Sat, 15 Jul 2023 21:18:24 GMT</pubDate>
             <description><![CDATA[k8s删除namespace之后状态一直为Terminating]]></description>
             <enclosure url="https://t.eryajf.net/imgs/2023/07/1689427249424.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[写在博客发表文章600篇的节点]]></title>
+            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/b4e432/</link>
+            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/b4e432/</guid>
+            <pubDate>Sun, 29 May 2022 09:50:49 GMT</pubDate>
+            <description><![CDATA[我想，博客已经发表文章600篇，近90w字，总有些话想说，就把这里当做我的独白罢！]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/07/a923726cbed212f0.png">
             </enclosure>
         </item>
         <item>
@@ -341,6 +341,24 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[vscode开发前端项目时如何tab补全自定义HTML标签]]></title>
+            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/62b2b7/</link>
+            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/62b2b7/</guid>
+            <pubDate>Mon, 01 Aug 2022 15:28:09 GMT</pubDate>
+            <description><![CDATA[当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。]]></description>
+            <enclosure url="https://tvax1.sinaimg.cn/large/008k1Yt0ly1h3tk8o6vamj30rs15o462.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解]]></title>
+            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/c2262c/</link>
+            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/c2262c/</guid>
+            <pubDate>Thu, 25 Aug 2022 09:04:55 GMT</pubDate>
+            <description><![CDATA[前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/08/0f1ec643b598917a.png">
+            </enclosure>
+        </item>
+        <item>
             <title><![CDATA[结合Multitouch完成我在Mac触摸板上的高效使用]]></title>
             <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/301514/</link>
             <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/301514/</guid>
@@ -356,24 +374,6 @@
             <pubDate>Mon, 24 Apr 2023 22:23:54 GMT</pubDate>
             <description><![CDATA[解决一个brew install时出现的错误。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/04/54411102a0621097.jpg">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解]]></title>
-            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/c2262c/</link>
-            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/c2262c/</guid>
-            <pubDate>Thu, 25 Aug 2022 09:04:55 GMT</pubDate>
-            <description><![CDATA[前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/08/0f1ec643b598917a.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[vscode开发前端项目时如何tab补全自定义HTML标签]]></title>
-            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/62b2b7/</link>
-            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/62b2b7/</guid>
-            <pubDate>Mon, 01 Aug 2022 15:28:09 GMT</pubDate>
-            <description><![CDATA[当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。]]></description>
-            <enclosure url="https://tvax1.sinaimg.cn/large/008k1Yt0ly1h3tk8o6vamj30rs15o462.jpg">
             </enclosure>
         </item>
         <item>
@@ -395,21 +395,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[博客接入CDN的折腾-对阿里云七牛云蓝易云多吉云几家CDN使用评测]]></title>
-            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/1a0733/</link>
-            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/1a0733/</guid>
-            <pubDate>Mon, 30 Jan 2023 11:44:55 GMT</pubDate>
-            <description><![CDATA[一句话来讲：我需要 CDN 的加速能力，但是又不想为对抗刷流量付出过多的精力，在这个基础之上，费用越便宜越好。毕竟是个人博客，服务器费用已是自己承担，分享内容已消耗很多的精力，现在 CDN 如果再有过多的精力和金钱投入，就太难受了。有了以上的准备及预期之后，我开始了博客接入 CDN 的折腾之旅。顺着这个折腾之旅，也了解体验了不少国内的 CDN 产品，聊作记录，兼为评测，以为分享。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/01/4b0d2463a48df154.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[Vuepress配置评论插件为Artalk]]></title>
             <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/b74c2b/</link>
             <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/b74c2b/</guid>
             <pubDate>Sun, 27 Nov 2022 17:33:19 GMT</pubDate>
             <description><![CDATA[把博客平台迁移到 vuepress 以来，之前折腾过好几次评论系统，大多是依赖第三方作为后端存储，导致要么是加载速度不理想，要么是配置费劲儿，于是，我终于下决心，自建评论系统。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/11/dc133db73e0b890e.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[博客接入CDN的折腾-对阿里云七牛云蓝易云多吉云几家CDN使用评测]]></title>
+            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/1a0733/</link>
+            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/1a0733/</guid>
+            <pubDate>Mon, 30 Jan 2023 11:44:55 GMT</pubDate>
+            <description><![CDATA[一句话来讲：我需要 CDN 的加速能力，但是又不想为对抗刷流量付出过多的精力，在这个基础之上，费用越便宜越好。毕竟是个人博客，服务器费用已是自己承担，分享内容已消耗很多的精力，现在 CDN 如果再有过多的精力和金钱投入，就太难受了。有了以上的准备及预期之后，我开始了博客接入 CDN 的折腾之旅。顺着这个折腾之旅，也了解体验了不少国内的 CDN 产品，聊作记录，兼为评测，以为分享。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/01/4b0d2463a48df154.png">
             </enclosure>
         </item>
         <item>
@@ -476,15 +476,6 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第140期-2024年第01周]]></title>
-            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/face3c/</link>
-            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/face3c/</guid>
-            <pubDate>Thu, 04 Jan 2024 23:08:08 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第140期-两个与docker相关的开源项目]]></description>
-            <enclosure url="https://t.eryajf.net/imgs/2023/12/1703778786168.jpg">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[一次因为Mac系统升级引发的ssh无法免密登陆的问题]]></title>
             <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/9b4f5f/</link>
             <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/9b4f5f/</guid>
@@ -494,12 +485,12 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[博客导引]]></title>
-            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/</link>
-            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/</guid>
-            <pubDate>Mon, 13 Feb 2023 10:56:00 GMT</pubDate>
-            <description><![CDATA[博客经过了五年的积累之后，已经沉淀了许多的内容，在此有必要做一个导引，帮助你更好地认识到，你正在浏览的，是一个构思多么用心，设计多么优秀，内容多么丰富，情操多么高尚，境界多么高雅的博客。]]></description>
-            <enclosure url="https://raw.githubusercontent.com/eryajf/eryajf/master/assets/github-contribution-grid-snake.svg">
+            <title><![CDATA[学习周刊-总第140期-2024年第01周]]></title>
+            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/face3c/</link>
+            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/face3c/</guid>
+            <pubDate>Thu, 04 Jan 2024 23:08:08 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第140期-两个与docker相关的开源项目]]></description>
+            <enclosure url="https://t.eryajf.net/imgs/2023/12/1703778786168.jpg">
             </enclosure>
         </item>
         <item>
@@ -508,6 +499,15 @@
             <guid>http://fsvip.gitee.io/hexo-theme-fluid/looking-for-a-job/</guid>
             <pubDate>Tue, 07 Mar 2023 10:56:00 GMT</pubDate>
             <description><![CDATA[注：已找到工作，这期间得到了太多的帮助，随后有空会整理一个文档进行感谢，接下来该专心投入到工作当中啦！]]></description>
+        </item>
+        <item>
+            <title><![CDATA[博客导引]]></title>
+            <link>http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/</link>
+            <guid>http://fsvip.gitee.io/hexo-theme-fluid/pages/b2f34c/</guid>
+            <pubDate>Mon, 13 Feb 2023 10:56:00 GMT</pubDate>
+            <description><![CDATA[博客经过了五年的积累之后，已经沉淀了许多的内容，在此有必要做一个导引，帮助你更好地认识到，你正在浏览的，是一个构思多么用心，设计多么优秀，内容多么丰富，情操多么高尚，境界多么高雅的博客。]]></description>
+            <enclosure url="https://raw.githubusercontent.com/eryajf/eryajf/master/assets/github-contribution-grid-snake.svg">
+            </enclosure>
         </item>
         <item>
             <title><![CDATA[置顶文章汇总]]></title>
